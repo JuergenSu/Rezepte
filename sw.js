@@ -1,13 +1,13 @@
 /* Bei jeder Änderung an Rezepten, Bildern oder App-Dateien VERSION erhöhen.
    Neue Rezeptbilder außerdem in FILES aufnehmen, damit sie sofort offline sind. */
 'use strict';
-const VERSION = 'v6';
+const VERSION = 'v7';
 // Der Scope schützt andere GitHub-Pages-Projekte auf demselben Host.
 const PREFIX = `kochbuch:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 const FILES = [
   './', './index.html', './styles.css', './app.js', './pwa.js', './recipes.js',
-  './manifest.webmanifest', './assets/kitchen.svg', './assets/kokosmakronen.svg', './assets/rumkugeln.svg', './assets/aperol-plaetzchen.svg', './assets/icon-192.png',
+  './manifest.webmanifest', './assets/kitchen.svg', './assets/kokosmakronen.svg', './assets/aperol-plaetzchen.svg', './assets/icon-192.png',
   './assets/icon-512.png', './assets/icon-maskable-512.png', './assets/apple-touch-icon.png'
 ];
 self.addEventListener('install', event => {

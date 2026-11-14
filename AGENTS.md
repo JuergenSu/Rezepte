@@ -80,7 +80,7 @@ Das folgende Beispiel beschreibt die Struktur; es ist kein vollständiges Kochre
 - `ingredients[].group` ist optional. Jeder Zutateneintrag enthält `amount` und `name`; jeder Schritt `title` und `text`.
 - `source` ist bei externen Vorlagen erforderlich. Bei eigenen Rezepten ist es optional. Nur geprüfte HTTPS-URLs als Link angeben. Bei Screenshots ohne bekannten Beitragslink `source: { label: 'Herkunft', note: 'Hinweis zur Vorlage' }` verwenden. Keine vermutete URL einsetzen.
 - Stückzahl, Temperatur, Heizart, Backzeit, Arbeitszeit und Kühlzeit auseinanderhalten. Keine erfundene Gesamtdauer aus Zeiten bilden, die sich möglicherweise überlappen.
-- Neue Rezepte vor der bestehenden Musterseite einfügen. Willkommens- und Musterseiten bleiben deutlich als solche erkennbar. Veraltete Hinweise auf noch fehlende Rezepte bei Bedarf aktualisieren.
+- Neue Rezepte am Ende der Sammlung ergänzen; die Willkommensseite bleibt am Anfang. Keine Musterrezepte oder Platzhalterseiten ohne ausdrücklichen Auftrag hinzufügen. Veraltete Hinweise auf noch fehlende Rezepte bei Bedarf aktualisieren.
 - Ein neues Datenfeld erfordert die passende gemeinsame Darstellung und Dokumentation; es darf nicht nur in einem Datensatz auftauchen und sonst wirkungslos bleiben.
 
 ## 5. Verbindliches Design

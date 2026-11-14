@@ -16,11 +16,11 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 - Blättern über horizontale Wischgesten, Pfeiltasten oder Zurück/Weiter.
 - „Rezepte entdecken“ öffnet die Suche nach Titel, Zutaten, Kategorie und Anleitung. Mehrere Suchwörter werden gemeinsam gesucht.
 - Das Band rechts oben setzt ein Lesezeichen. Lesezeichen werden im lokalen Browserspeicher gespeichert; es gibt keine Synchronisierung zwischen Geräten. Bei gesperrtem Speicher gelten sie nur während der Sitzung.
-- Jedes Rezept hat eine Adresse mit stabiler ID, beispielsweise `index.html#musterseite`. Diese lässt sich auch als Browser-Lesezeichen speichern oder teilen. Browser-Zurück/Vorwärts wird unterstützt.
+- Jedes Rezept hat eine Adresse mit stabiler ID, beispielsweise `index.html#kokosmakronen-sally`. Diese lässt sich auch als Browser-Lesezeichen speichern oder teilen. Browser-Zurück/Vorwärts wird unterstützt.
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen und Rumkugeln nach Sallys Welt als Beispielrezepte und eine klar markierte Musterseite. Die Musterseite kann später entfernt werden.
+Enthalten sind eine Willkommensseite, Kokosmakronen nach Sallys Welt und Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -68,13 +68,12 @@ Eine neue Version wird im Hintergrund geladen. Nach dem Schließen aller Kochbuc
 
 Bis 650 px Bildschirmbreite wird das Rezept als durchgehendes, einspaltiges Blatt angezeigt: Titel, Foto, Zutaten und danach die Zubereitung. Die Schrift ist zum Lesen beim Kochen größer. Oben bleiben die Rezeptsuche und die Sprungtasten „Überblick“, „Zutaten“ und „Zubereitung“ erreichbar; unten bleibt die Navigation zwischen Rezepten sichtbar. Beim Rezeptwechsel beginnt die Ansicht wieder oben. Die Bedienelemente berücksichtigen den geschützten Bildschirmrand und den Home-Indikator. Auf dem iPad bleibt die Doppelseite erhalten.
 
-## Beispielrezept und Quellen
+## Rezepte und Quellen
 
 „Kokosmakronen & Kokosbusserl“ basiert auf [Sallys Welt: Kokosmakronen / Kokosbusserl](https://sallys-blog.de/rezepte/kokosmakronen-kokosbusserl), abgerufen am 14. November 2026. Mengen und Backdaten wurden anhand der Originalseite geprüft; die Anleitung ist in eigenen Worten zusammengefasst. Die lokale SVG-Illustration wurde für dieses Kochbuch erstellt und ist kein Originalfoto von Sallys Welt.
 
 Externe Rezepte können das optionale Feld `source: { label: 'Name der Quelle', url: 'https://…' }` erhalten. Die Quelle erscheint am Rezept und wird mit durchsucht. Der Link öffnet eine neue Registerkarte; das externe Original ist nur online verfügbar. Das gespeicherte Rezept samt Illustration bleibt offline lesbar.
 
-„Rumkugeln aus Kuchenresten“ basiert auf [Sallys Welt: Rumkugeln / Pralinen aus Kuchenresten](https://sallys-blog.de/rezepte/rumkugeln-pralinen-aus-kuchenresten), abgerufen am 14. November 2026. Zutaten und Zubereitungszeit wurden anhand der Originalseite geprüft; die Schritte sind in eigenen Worten zusammengefasst. Die Stückzahl hängt von der selbst gewählten Kugelgröße ab. Die Illustration ist eine eigene SVG-Grafik. Das vollständige Rezept und die Illustration sind im Offline-Speicher enthalten.
 
 ## Rezept aus Screenshots: Aperol-Spritz-Plätzchen
 
