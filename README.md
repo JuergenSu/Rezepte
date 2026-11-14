@@ -1,5 +1,7 @@
 # Unser Kochbuch
 
+Für weitere agentische Arbeit gelten die [Arbeitsregeln in AGENTS.md](AGENTS.md). Sie definieren das gemeinsame Seitenschema, Pflichtfunktionen, Design und die Pflege der Offline-App.
+
 Ein digitales Kochbuch aus reinem HTML, CSS und JavaScript. Ohne Build-Schritt, externe Bibliotheken, Webfonts oder serverseitige Skripte. Alle Bilder liegen lokal im Repository.
 
 ## Öffnen und veröffentlichen
