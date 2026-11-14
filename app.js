@@ -158,6 +158,7 @@
       target.scrollIntoView({ block: 'start' });
     });
   });
+  $('print-recipe').addEventListener('click', () => window.print());
   $('previous').addEventListener('click', () => go(current - 1));
   $('next').addEventListener('click', () => go(current + 1));
   document.addEventListener('keydown', event => {

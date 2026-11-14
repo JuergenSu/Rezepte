@@ -79,3 +79,7 @@ Externe Rezepte können das optionale Feld `source: { label: 'Name der Quelle', 
 Der Eintrag `aperol-spritz-plaetzchen` wurde aus drei vom Nutzer bereitgestellten Screenshots eines Beitrags von foodwerk.de übertragen. Er enthält Mengen für ca. 25 gefüllte Plätzchen, 175 °C Ober-/Unterhitze, 8–12 Minuten Backzeit, ca. 45 Minuten Teigkühlung und ca. 1 Stunde Kühlung der Ganache. Der letzte Satz zur Glasur ist abgeschnitten: Eintauchen, Dekorieren und Trocknen wurden sinngemäß ergänzt und im Rezept gekennzeichnet. Ein direkter Beitragslink ist nicht bekannt. Die Illustration ist eine eigene SVG-Grafik.
 
 Zutaten unterstützen optional `group` (z. B. „Mürbeteig“, „Ganache“, „Glasur“). Gleiche Gruppen zusammenhängend anordnen; beim Gruppenwechsel erscheint eine Zwischenüberschrift. `source` kann bei Vorlagen ohne URL nur `label` und optional `note` enthalten; dann wird die Herkunft ohne erfundenen Link angezeigt.
+
+## Drucken
+
+„Drucken“ oberhalb des geöffneten Rezepts öffnet den Druckdialog des Browsers. Dort sind Papierdruck und, falls vom Gerät angeboten, Speichern als PDF möglich. Gedruckt wird nur das aktuelle Rezept mit Zutaten, Anleitung, Küchennotiz und Quelle. Navigation und App-Bedienung werden ausgeblendet. Die Druckansicht nutzt eine einspaltige A4-Darstellung mit Seitenumbrüchen für längere Rezepte; Ränder und Papierformat lassen sich im Druckdialog ändern.

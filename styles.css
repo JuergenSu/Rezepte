@@ -37,3 +37,45 @@
 .recipe-source{margin:20px 0 6px;font-size:12px;line-height:1.7;color:#626d5d;overflow-wrap:anywhere}.recipe-source a{text-underline-offset:3px}.recipe-source small{display:block;margin-top:4px;font-size:11px;color:#7c8069}@media screen and (max-width:650px){.recipe-source{font-size:14px;line-height:1.8;margin-top:24px}.recipe-source a{display:inline-block;padding:6px 0}.recipe-source small{font-size:12px}}
 
 .ingredients li.ingredient-group{display:block;border-bottom:0;padding:20px 0 5px}.ingredient-group h3{margin:0;font:normal 19px/1.4 var(--serif);color:var(--green)}@media screen and (max-width:650px){.ingredient-group h3{font-size:22px}.ingredients li.ingredient-group{padding-top:24px}}
+
+.print-button{min-height:44px;padding:10px 16px;border:1px solid #c4ccba;border-radius:5px;background:#f7f6ee;color:var(--green);font-size:12px;letter-spacing:0;flex-shrink:0}
+.book-heading{align-items:center;gap:12px}.book-heading>span:first-child{flex:1}.book-heading>#chapter{font:italic 13px var(--serif);letter-spacing:0;text-align:right;}
+@media screen and (max-width:650px){.book-heading{flex-wrap:wrap;gap:8px}.book-heading>#chapter{display:none}.print-button{padding:10px 12px;font-size:12px}}
+@page{size:A4;margin:14mm}
+@media print{
+  html,body{background:white!important;color:#111!important;font-size:10pt;padding:0!important;margin:0!important;}
+  .masthead,.mobile-sections,.book-heading,.pagination,.site-footer,.app-bar,.ribbon,.page-footer,dialog,noscript,#announcement{display:none!important;}
+  main{max-width:none;width:auto;margin:0;padding:0;}
+  .book{display:block;border:0;border-radius:0;box-shadow:none;transform:none;animation:none;background:white;}
+  .book:after{display:none;}
+  .page{display:block;padding:0;min-height:0;border:0;background:none!important;}
+  .page-right{margin-top:7mm;}
+  .eyebrow{font-size:8pt;color:#444;letter-spacing:1px;}
+  h1{font-size:26pt;line-height:1.15;margin:3mm 0;letter-spacing:-.5pt;white-space:normal;}
+  .intro{font-size:10pt;line-height:1.5;max-width:none;color:#333;margin:0 0 4mm;}
+  figure{margin:0 0 5mm;break-inside:avoid;}
+  figure img{width:65mm;height:32mm;object-fit:cover;}
+  figcaption{font-size:8pt;color:#444;}
+  .ingredients-heading{justify-content:flex-start;gap:8mm;}
+  .ingredients-heading h2,.instruction-title{font-size:18pt;margin:0 0 3mm;}
+  .ingredients-heading span,.small-note{font-size:9pt;color:#333;}
+  .ingredients{margin:0;}
+  .ingredients li{grid-template-columns:30mm 1fr;gap:3mm;padding:1.5mm 0;font-size:10pt;line-height:1.4;border-color:#ccc;break-inside:avoid;}
+  .ingredients li span:first-child{color:#333;}
+  .ingredients li.ingredient-group{padding:4mm 0 1mm;break-after:avoid;}
+  .ingredient-group h3{font-size:12pt;color:#111;}
+  h1,h2,h3{break-after:avoid;}
+  .recipe-meta{padding:2mm 0;font-size:9pt;color:#333;border-color:#aaa;}
+  .steps{margin:5mm 0;}
+  .steps li{padding-left:10mm;margin-bottom:4mm;break-inside:avoid;}
+  .steps li:before{font-size:14pt;color:#555;}
+  .steps h3{font-size:12pt;margin-bottom:1.5mm;}
+  .steps p{font-size:10pt;line-height:1.5;color:#111;}
+  .tip{background:none;padding:3mm;border:1px solid #aaa;font-size:10pt;line-height:1.5;color:#333;break-inside:avoid;}
+  .tip:before{font-size:8pt;}
+  .recipe-source{font-size:9pt;line-height:1.5;color:#333;margin:4mm 0 0;break-inside:avoid;}
+  .recipe-source small{font-size:8pt;}
+  .recipe-source a{color:#111;text-decoration:none;}
+  .recipe-source a:after{content:' (' attr(href) ')';font-size:8pt;overflow-wrap:anywhere;}
+  p{orphans:3;widows:3;}
+}
