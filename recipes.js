@@ -380,5 +380,106 @@ window.RECIPES = [
     "label": "Sallys Welt · Vanillekipferl",
     "url": "https://sallys-blog.de/rezepte/vanillekipferl"
   }
+},
+{
+  "id": "kaffeetaler-sally",
+  "title": "Kaffeetaler",
+  "category": "Plätzchen · nach Sallys Welt",
+  "description": "Kaffee-Mürbeteig mit zweifarbiger Espressoglasur und Mokkabohnen. Nach Sallys Welt, in eigenen Worten zusammengefasst.",
+  "image": "assets/kaffeetaler.svg",
+  "imageAlt": "Eigene Illustration runder Kaffeetaler mit heller Glasur, dunklen Streifen und Mokkabohnen",
+  "imageCaption": "Eigene Illustration · kein Originalfoto",
+  "servings": "20 Stück",
+  "ingredientsNote": "Mengen aus Sallys Einzelrezept für Kaffeetaler.",
+  "ingredients": [
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "100 g",
+      "name": "Zucker"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "200 g",
+      "name": "Butter"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "300 g",
+      "name": "Mehl"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "1 Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "0,5 TL",
+      "name": "Vanilleextrakt"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "25 g",
+      "name": "Pulverkaffee"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "1 Prise",
+      "name": "Tonkabohne, gerieben"
+    },
+    {
+      "group": "Dekoration",
+      "amount": "250 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Dekoration",
+      "amount": "1",
+      "name": "Espresso, nach Konsistenz dosieren"
+    },
+    {
+      "group": "Dekoration",
+      "amount": "1 TL",
+      "name": "Kakao"
+    },
+    {
+      "group": "Dekoration",
+      "amount": "100 g",
+      "name": "Mokkabohnen"
+    }
+  ],
+  "meta": [
+    "60 Min. Zubereitung",
+    "8–12 Min. Backzeit",
+    "180 °C Ober-/Unterhitze",
+    "Mind. 1 Std. + 30 Min. Kühlung"
+  ],
+  "steps": [
+    {
+      "title": "Teig zubereiten",
+      "text": "Zucker und Butter verrühren. Mehl, Salz, Vanille, Pulverkaffee und Tonka zugeben und zügig verkneten. Abgedeckt mindestens 1 Stunde kalt stellen."
+    },
+    {
+      "title": "Ausstechen & kühlen",
+      "text": "Kurz durchkneten, auf wenig Mehl 5 mm dick ausrollen und ausstechen. Auf Backfolie legen und weitere 30 Minuten kühlen."
+    },
+    {
+      "title": "Backen",
+      "text": "Im vorgeheizten Ofen bei 180 °C Ober-/Unterhitze 8–12 Minuten backen. Vollständig auskühlen lassen."
+    },
+    {
+      "title": "Glasur anrühren",
+      "text": "Puderzucker mit portionsweise zugegebenem Espresso dickflüssig anrühren. Ein Viertel der Glasur mit Kakao dunkel färben."
+    },
+    {
+      "title": "Dekorieren",
+      "text": "Helle Glasur aufstreichen. Dunkle Glasur aus einem Beutel mit abgeschnittener Spitze in Streifen darübergeben, nach Wunsch mit einem Zahnstocher Muster ziehen. Mokkabohnen auflegen und Glasur fest werden lassen."
+    }
+  ],
+  "tip": "Espresso schrittweise einrühren, damit die Glasur nicht zu dünn wird.",
+  "source": {
+    "label": "Sallys Welt · Bunter Plätzchen-Teller / Kaffeetaler",
+    "url": "https://sallys-blog.de/rezepte/kaffeetaler"
+  }
 }
 ];

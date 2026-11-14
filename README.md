@@ -20,7 +20,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen, Zitronenkekse mit Lemon Curd und Vanillekipferl nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
+Enthalten sind eine Willkommensseite, Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl und Kaffeetaler nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -92,3 +92,7 @@ Quelle: [Sallys Welt · Zitronenkekse mit Lemon Curd](https://sallys-blog.de/rez
 ## Vanillekipferl
 
 Quelle: [Sallys Welt · Vanillekipferl](https://sallys-blog.de/rezepte/vanillekipferl), geprüft am 14. November 2026. Zutaten, Backdaten und Formhinweise wurden geprüft und die Anleitung in eigenen Worten zusammengefasst. Eine feste Stückzahl war im ausgelesenen Quellentext nicht angegeben; der Eintrag nennt eine Rezeptmenge. Die Illustration ist eine eigene lokale SVG-Grafik.
+
+## Kaffeetaler
+
+Quelle: [Sallys Welt · Bunter Plätzchen-Teller / Kaffeetaler](https://sallys-blog.de/rezepte/kaffeetaler), direktes HTML geprüft am 14. November 2026. Übernommen wurden die Mengen des Einzelrezepts für 20 Stück (einschließlich 0,5 TL Vanilleextrakt), nicht die Mengen des kombinierten Plätzchentellers. Die Übersicht nennt 60 Minuten Kühlung; die Anleitung nennt mindestens 1 Stunde plus weitere 30 Minuten. Im Kochbuch stehen die beiden Arbeitsschritte getrennt. Die Anleitung ist in eigenen Worten zusammengefasst, die lokale SVG-Illustration selbst erstellt.
