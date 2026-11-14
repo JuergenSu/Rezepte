@@ -298,5 +298,87 @@ window.RECIPES = [
     "label": "Sallys Welt · Zitronenkekse mit Lemon Curd",
     "url": "https://sallys-blog.de/rezepte/zitronenkekse-mit-lemon-curd"
   }
+},
+{
+  "id": "vanillekipferl-sally",
+  "title": "Vanillekipferl",
+  "category": "Plätzchen · nach Sallys Welt",
+  "description": "Zarte Mandelhörnchen mit Vanille-Puderzucker. Nach Sallys Welt, in eigenen Worten zusammengefasst.",
+  "image": "assets/vanillekipferl.svg",
+  "imageAlt": "Eigene Illustration von mit Puderzucker bestäubten Vanillekipferln auf einem grünen Teller",
+  "imageCaption": "Eigene Illustration · kein Originalfoto",
+  "servings": "1 Rezeptmenge",
+  "ingredientsNote": "Stückzahl abhängig von der Größe der Kipferl.",
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": "125 g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Teig",
+      "amount": "100 g",
+      "name": "Butter"
+    },
+    {
+      "group": "Teig",
+      "amount": "50 g",
+      "name": "Mandeln, gemahlen"
+    },
+    {
+      "group": "Teig",
+      "amount": "40 g",
+      "name": "Zucker"
+    },
+    {
+      "group": "Teig",
+      "amount": "1 Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Teig",
+      "amount": "1 TL",
+      "name": "Vanilleextrakt"
+    },
+    {
+      "group": "Zum Bestreuen",
+      "amount": "125 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Zum Bestreuen",
+      "amount": "1",
+      "name": "Vanilleschote"
+    }
+  ],
+  "meta": [
+    "45 Min. Zubereitung",
+    "10–12 Min. Backzeit",
+    "160 °C Heißluft",
+    "2,5 Std. Kühlzeit laut Übersicht"
+  ],
+  "steps": [
+    {
+      "title": "Teig vorbereiten",
+      "text": "Teigzutaten kurz verkneten, abdecken und mindestens 1–2 Stunden oder über Nacht kalt stellen."
+    },
+    {
+      "title": "Kipferl formen",
+      "text": "Kurz durchkneten, eine 4 cm dicke Rolle formen und 2 cm breite Stücke abschneiden. Zu Kugeln, dann zu 10–12 cm langen Strängen rollen. Die Mitte dicker lassen, die Spitzen nicht zu dünn formen. Zu Hörnchen biegen und mit Abstand auf ein Blech mit Backfolie legen."
+    },
+    {
+      "title": "Kühlen & backen",
+      "text": "Weitere 30 Minuten kühlen, alternativ 15 Minuten einfrieren. Bei vorgeheizten 160 °C Heißluft 10–12 Minuten leicht bräunen. Alternativ blechweise bei 180 °C Ober-/Unterhitze backen."
+    },
+    {
+      "title": "Mit Vanille bestreuen",
+      "text": "Vanilleschote längs öffnen, Mark auskratzen und mit Puderzucker vermischen. Die noch warmen Kipferl auf dem Blech großzügig damit bestäuben. Vollständig auskühlen lassen, vorsichtig abklopfen und luftdicht verpacken."
+    }
+  ],
+  "tip": "Übrigen Vanille-Puderzucker für weitere Plätzchen aufheben.",
+  "source": {
+    "label": "Sallys Welt · Vanillekipferl",
+    "url": "https://sallys-blog.de/rezepte/vanillekipferl"
+  }
 }
 ];
