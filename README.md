@@ -61,3 +61,7 @@ Die Website ist eine Progressive Web App mit eigenem Symbol und eigenem Fenster.
 Bei **jeder Veröffentlichung** mit geänderten App-Dateien oder Rezepten die `VERSION` in `sw.js` erhöhen (z. B. `v1` → `v2`). Neue lokale Rezeptfotos zusätzlich in `FILES` aufnehmen. So werden alle Inhalte als zusammengehörige Version offline gespeichert. Weitere besuchte lokale Bilder werden ebenfalls zwischengespeichert.
 
 Eine neue Version wird im Hintergrund geladen. Nach dem Schließen aller Kochbuchfenster wird sie beim nächsten Öffnen aktiv. Ein Hinweis zeigt an, wenn ein Update wartet. Es gibt kein erzwungenes Neuladen beim Kochen. Lesezeichen in `localStorage` bleiben beim App-Update erhalten. Der Service Worker entfernt nur eigene alte Caches dieses Kochbuchs, keine Daten anderer Projekte auf derselben GitHub-Pages-Domain.
+
+## Handy im Hochformat
+
+Bis 650 px Bildschirmbreite wird das Rezept als durchgehendes, einspaltiges Blatt angezeigt: Titel, Foto, Zutaten und danach die Zubereitung. Die Schrift ist zum Lesen beim Kochen größer. Oben bleiben die Rezeptsuche und die Sprungtasten „Überblick“, „Zutaten“ und „Zubereitung“ erreichbar; unten bleibt die Navigation zwischen Rezepten sichtbar. Beim Rezeptwechsel beginnt die Ansicht wieder oben. Die Bedienelemente berücksichtigen den geschützten Bildschirmrand und den Home-Indikator. Auf dem iPad bleibt die Doppelseite erhalten.

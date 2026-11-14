@@ -52,7 +52,7 @@
     $('recipe-tip').hidden = !recipe.tip;
     $('left-number').textContent = String(current * 2 + 1).padStart(2, '0');
     $('right-number').textContent = String(current * 2 + 2).padStart(2, '0');
-    $('page-position').textContent = `Doppelseite ${current + 1} von ${recipes.length}`;
+    $('page-position').textContent = `${matchMedia('(max-width: 650px)').matches ? 'Eintrag' : 'Doppelseite'} ${current + 1} von ${recipes.length}`;
     $('previous').disabled = current === 0;
     $('next').disabled = current === recipes.length - 1;
     updateBookmark();
@@ -70,6 +70,7 @@
     const previous = current;
     current = index < 0 ? 0 : index;
     render(true, current < previous ? 'previous' : 'next');
+    if (matchMedia('(max-width: 650px)').matches) $('book').scrollIntoView({ block: 'start' });
   }
   function go(index) {
     if (index < 0 || index >= recipes.length || index === current) return;
@@ -120,6 +121,13 @@
     $('announcement').textContent = `${bookmarks.has(id) ? 'Lesezeichen gesetzt.' : 'Lesezeichen entfernt.'}${storageAvailable ? '' : ' Der Browser erlaubt keine dauerhafte Speicherung. Das Lesezeichen gilt nur bis zum Neuladen.'}`;
     if (!storageAvailable) document.querySelector('.storage-note').textContent = 'Der Browser erlaubt keine dauerhafte Speicherung. Lesezeichen gelten nur bis zum Neuladen.';
   });
+  document.querySelectorAll('[data-section]').forEach(button => {
+    button.addEventListener('click', () => {
+      const target = $(button.dataset.section);
+      target.focus({ preventScroll: true });
+      target.scrollIntoView({ block: 'start' });
+    });
+  });
   $('previous').addEventListener('click', () => go(current - 1));
   $('next').addEventListener('click', () => go(current + 1));
   document.addEventListener('keydown', event => {
@@ -143,6 +151,9 @@
   }, { passive: true });
   $('recipe-image').addEventListener('error', () => {
     if (!$('recipe-image').src.endsWith('/assets/kitchen.svg')) $('recipe-image').src = 'assets/kitchen.svg';
+  });
+  matchMedia('(max-width: 650px)').addEventListener('change', () => {
+    $('page-position').textContent = `${matchMedia('(max-width: 650px)').matches ? 'Eintrag' : 'Doppelseite'} ${current + 1} von ${recipes.length}`;
   });
   window.addEventListener('hashchange', fromHash);
   if (!recipes.length) {
