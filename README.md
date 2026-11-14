@@ -73,3 +73,9 @@ Bis 650 px Bildschirmbreite wird das Rezept als durchgehendes, einspaltiges Blat
 Externe Rezepte können das optionale Feld `source: { label: 'Name der Quelle', url: 'https://…' }` erhalten. Die Quelle erscheint am Rezept und wird mit durchsucht. Der Link öffnet eine neue Registerkarte; das externe Original ist nur online verfügbar. Das gespeicherte Rezept samt Illustration bleibt offline lesbar.
 
 „Rumkugeln aus Kuchenresten“ basiert auf [Sallys Welt: Rumkugeln / Pralinen aus Kuchenresten](https://sallys-blog.de/rezepte/rumkugeln-pralinen-aus-kuchenresten), abgerufen am 14. November 2026. Zutaten und Zubereitungszeit wurden anhand der Originalseite geprüft; die Schritte sind in eigenen Worten zusammengefasst. Die Stückzahl hängt von der selbst gewählten Kugelgröße ab. Die Illustration ist eine eigene SVG-Grafik. Das vollständige Rezept und die Illustration sind im Offline-Speicher enthalten.
+
+## Rezept aus Screenshots: Aperol-Spritz-Plätzchen
+
+Der Eintrag `aperol-spritz-plaetzchen` wurde aus drei vom Nutzer bereitgestellten Screenshots eines Beitrags von foodwerk.de übertragen. Er enthält Mengen für ca. 25 gefüllte Plätzchen, 175 °C Ober-/Unterhitze, 8–12 Minuten Backzeit, ca. 45 Minuten Teigkühlung und ca. 1 Stunde Kühlung der Ganache. Der letzte Satz zur Glasur ist abgeschnitten: Eintauchen, Dekorieren und Trocknen wurden sinngemäß ergänzt und im Rezept gekennzeichnet. Ein direkter Beitragslink ist nicht bekannt. Die Illustration ist eine eigene SVG-Grafik.
+
+Zutaten unterstützen optional `group` (z. B. „Mürbeteig“, „Ganache“, „Glasur“). Gleiche Gruppen zusammenhängend anordnen; beim Gruppenwechsel erscheint eine Zwischenüberschrift. `source` kann bei Vorlagen ohne URL nur `label` und optional `note` enthalten; dann wird die Herkunft ohne erfundenen Link angezeigt.

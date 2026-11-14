@@ -159,6 +159,133 @@ window.RECIPES = [
     "url": "https://sallys-blog.de/rezepte/rumkugeln-pralinen-aus-kuchenresten"
   }
 },
+{
+  "id": "aperol-spritz-plaetzchen",
+  "title": "Aperol-Spritz-\nPlätzchen",
+  "category": "Gefüllte Plätzchen · nach foodwerk.de",
+  "description": "Orangen-Mürbeteig trifft auf Aperol-Ganache und orangefarbene Glasur. Übertragen aus deinen Screenshots des Beitrags von foodwerk.de.",
+  "image": "assets/aperol-plaetzchen.svg",
+  "imageAlt": "Eigene Illustration gefüllter runder Plätzchen mit halbseitiger orangefarbener Glasur",
+  "imageCaption": "Eigene Illustration nach der Gebäckform im Screenshot",
+  "servings": "ca. 25 gefüllte Plätzchen",
+  "ingredientsNote": "Je zwei gebackene Kreise ergeben ein gefülltes Plätzchen.",
+  "ingredients": [
+    {
+      "group": "Mürbeteig",
+      "amount": "250 g",
+      "name": "Mehl"
+    },
+    {
+      "group": "Mürbeteig",
+      "amount": "150 g",
+      "name": "Butter, kalt"
+    },
+    {
+      "group": "Mürbeteig",
+      "amount": "80 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Mürbeteig",
+      "amount": "1",
+      "name": "Eigelb"
+    },
+    {
+      "group": "Mürbeteig",
+      "amount": "1 Bio-Orange",
+      "name": "Abrieb"
+    },
+    {
+      "group": "Mürbeteig",
+      "amount": "1 Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "Aperol-Ganache",
+      "amount": "270 g",
+      "name": "Weiße Kuvertüre"
+    },
+    {
+      "group": "Aperol-Ganache",
+      "amount": "50 g",
+      "name": "Schlagsahne"
+    },
+    {
+      "group": "Aperol-Ganache",
+      "amount": "40 g",
+      "name": "Aperol"
+    },
+    {
+      "group": "Aperol-Glasur & Dekoration",
+      "amount": "120 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Aperol-Glasur & Dekoration",
+      "amount": "20–25 g",
+      "name": "Aperol"
+    },
+    {
+      "group": "Aperol-Glasur & Dekoration",
+      "amount": "Etwas",
+      "name": "Orangefarbene Lebensmittelfarbe (Gel)"
+    },
+    {
+      "group": "Aperol-Glasur & Dekoration",
+      "amount": "Nach Belieben",
+      "name": "Abgeriebene Orangenschale zum Dekorieren"
+    }
+  ],
+  "meta": [
+    "175 °C Ober-/Unterhitze",
+    "8–12 Min. Backzeit",
+    "45 Min. Teigkühlung",
+    "ca. 1 Std. Ganachekühlung"
+  ],
+  "steps": [
+    {
+      "title": "Mürbeteig herstellen",
+      "text": "Mehl, kalte Butter, Puderzucker, Eigelb, Orangenabrieb und Salz zu einem glatten Teig verkneten. In Frischhaltefolie wickeln und etwa 45 Minuten kalt stellen."
+    },
+    {
+      "title": "Ausrollen & ausstechen",
+      "text": "Den Teig auf einer leicht bemehlten Arbeitsfläche ausrollen und Kreise ausstechen."
+    },
+    {
+      "title": "Die Plätzchen backen",
+      "text": "Die Kreise auf ein mit Backpapier belegtes Blech legen. Bei 175 °C Ober-/Unterhitze etwa 8–12 Minuten backen und danach vollständig auskühlen lassen."
+    },
+    {
+      "title": "Ganache anrühren",
+      "text": "Weiße Kuvertüre langsam über einem Wasserbad schmelzen. Die Schlagsahne in der Mikrowelle lauwarm erwärmen, zur Kuvertüre geben und gründlich verrühren."
+    },
+    {
+      "title": "Aperol zugeben & kühlen",
+      "text": "40 g Aperol unterrühren, bis die Ganache glatt ist. Etwa 1 Stunde im Kühlschrank fest werden lassen."
+    },
+    {
+      "title": "Ganache cremig rühren",
+      "text": "Die gekühlte Ganache nochmals rühren, bis sie cremig und spritzfähig ist. In einen Spritzbeutel füllen."
+    },
+    {
+      "title": "Die Plätzchen füllen",
+      "text": "Ganache auf die Hälfte der Plätzchen spritzen. Jeweils ein zweites Plätzchen auflegen und behutsam zusammendrücken."
+    },
+    {
+      "title": "Glasur mischen",
+      "text": "120 g Puderzucker mit 20–25 g Aperol glatt rühren und mit etwas orangefarbener Gel-Lebensmittelfarbe einfärben. Die Glasur soll dickflüssig sein; ist sie zu dünn, etwas Puderzucker ergänzen."
+    },
+    {
+      "title": "Glasieren & dekorieren",
+      "text": "Die gefüllten Plätzchen jeweils zur Hälfte in die Aperol-Glasur tauchen. Mit Orangenschale dekorieren und die Glasur trocknen lassen. Hinweis: Der letzte Satz ist im Screenshot abgeschnitten; dieser Abschluss ist sinngemäß ergänzt."
+    }
+  ],
+  "tip": "Enthält Alkohol in der ungebackenen Füllung und Glasur. Die Kühlzeiten für Teig und Ganache sind getrennt angegeben; die Anleitung enthält keine feste Gesamtdauer.",
+  "source": {
+    "label": "foodwerk.de · Aperol Spritz Plätzchen (bereitgestellte Screenshots)",
+    "note": "Aus drei Screenshots übertragen. Ein direkter Beitragslink liegt nicht vor; der abgeschnittene Abschluss ist am letzten Schritt gekennzeichnet."
+  }
+},
   {
     id: 'musterseite',
     title: 'Hier zieht dein\nLieblingsrezept ein.',

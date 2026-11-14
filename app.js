@@ -37,10 +37,18 @@
     $('image-caption').textContent = recipe.imageCaption || '';
     $('servings').textContent = recipe.servings || '';
     $('ingredients-note').textContent = recipe.ingredientsNote || '';
-    $('ingredients').replaceChildren(...recipe.ingredients.map(ingredient => {
+    let previousGroup = '';
+    $('ingredients').replaceChildren(...recipe.ingredients.flatMap(ingredient => {
+      const nodes = [];
+      if (ingredient.group && ingredient.group !== previousGroup) {
+        const heading = element('li', undefined, 'ingredient-group');
+        heading.append(element('h3', ingredient.group));
+        nodes.push(heading);
+      }
+      previousGroup = ingredient.group || '';
       const li = element('li');
       li.append(element('span', ingredient.amount), element('span', ingredient.name));
-      return li;
+      return [...nodes, li];
     }));
     $('recipe-meta').replaceChildren(...(recipe.meta || []).map(item => element('span', item)));
     $('steps').replaceChildren(...recipe.steps.map(step => {
@@ -53,6 +61,11 @@
     const source = $('recipe-source');
     source.replaceChildren();
     source.hidden = true;
+    if (recipe.source?.label) {
+      source.append(element('span', 'Quelle · '), element('span', recipe.source.label));
+      if (recipe.source.note) source.append(element('small', recipe.source.note));
+      source.hidden = false;
+    }
     if (recipe.source?.url) {
       try {
         const url = new URL(recipe.source.url);
@@ -61,7 +74,7 @@
           link.href = url.href;
           link.target = '_blank';
           link.rel = 'noopener noreferrer';
-          source.append(element('span', 'Quelle · '), link, element('small', 'Originalrezept online öffnen ↗'));
+          source.replaceChildren(element('span', 'Quelle · '), link, element('small', 'Originalrezept online öffnen ↗'));
           source.hidden = false;
         }
       } catch { /* Ohne gültigen HTTPS-Link keine Quelle anzeigen. */ }
@@ -97,7 +110,7 @@
     const query = normalize($('search').value.trim());
     const matches = recipes.filter(recipe => {
       const haystack = normalize([recipe.title, recipe.category, recipe.description, recipe.source?.label || '',
-        ...recipe.ingredients.map(item => item.name), ...recipe.steps.map(step => `${step.title} ${step.text}`)].join(' '));
+        ...recipe.ingredients.map(item => `${item.group || ''} ${item.name}`), ...recipe.steps.map(step => `${step.title} ${step.text}`)].join(' '));
       return (!savedOnly || bookmarks.has(recipe.id)) && query.split(/\s+/).every(term => haystack.includes(term));
     });
     $('search-summary').textContent = matches.length ? `${matches.length} ${matches.length === 1 ? 'Eintrag' : 'Einträge'} gefunden` : savedOnly ? 'Keine passenden Lesezeichen. Merke dir eine Seite über das Band oben rechts.' : 'Keine Treffer. Versuche einen anderen Suchbegriff.';
