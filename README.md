@@ -20,7 +20,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen nach Sallys Welt und Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
+Enthalten sind eine Willkommensseite, Kokosmakronen und Zitronenkekse mit Lemon Curd nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -84,3 +84,7 @@ Zutaten unterstützen optional `group` (z. B. „Mürbeteig“, „Ganache“, �
 ## Drucken
 
 „Drucken“ oberhalb des geöffneten Rezepts öffnet den Druckdialog des Browsers. Dort sind Papierdruck und, falls vom Gerät angeboten, Speichern als PDF möglich. Gedruckt wird nur das aktuelle Rezept mit Zutaten, Anleitung, Küchennotiz und Quelle. Navigation und App-Bedienung werden ausgeblendet. Die Druckansicht nutzt eine einspaltige A4-Darstellung mit Seitenumbrüchen für längere Rezepte; Ränder und Papierformat lassen sich im Druckdialog ändern.
+
+## Zitronenkekse mit Lemon Curd
+
+Quelle: [Sallys Welt · Zitronenkekse mit Lemon Curd](https://sallys-blog.de/rezepte/zitronenkekse-mit-lemon-curd), geprüft am 14. November 2026. Der Quellenlink ist ohne Trackingparameter gespeichert. Die Anleitung ist in eigenen Worten zusammengefasst. Die Stückzahl war im ausgelesenen Quellentext nicht angegeben; der Eintrag nennt daher eine Rezeptmenge. Die Illustration ist eine eigene lokale SVG-Grafik.

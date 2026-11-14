@@ -216,5 +216,87 @@ window.RECIPES = [
     "label": "foodwerk.de · Aperol Spritz Plätzchen (bereitgestellte Screenshots)",
     "note": "Aus drei Screenshots übertragen. Ein direkter Beitragslink liegt nicht vor; der abgeschnittene Abschluss ist am letzten Schritt gekennzeichnet."
   }
+},
+{
+  "id": "zitronenkekse-lemon-curd",
+  "title": "Zitronenkekse\nmit Lemon Curd",
+  "category": "Gefüllte Plätzchen · nach Sallys Welt",
+  "description": "Zarter Mürbeteig mit Zitronenfüllung und weißer Schokolade. Nach Sallys Welt, in eigenen Worten zusammengefasst.",
+  "image": "assets/zitronenkekse.svg",
+  "imageAlt": "Eigene Illustration runder Doppelkekse mit gelber Lemon-Curd-Füllung und weißer Schokoladendekoration",
+  "imageCaption": "Eigene Illustration · kein Originalfoto",
+  "servings": "1 Rezeptmenge",
+  "ingredientsNote": "Stückzahl abhängig vom Ausstecher. Fertiges Lemon Curd verwenden.",
+  "ingredients": [
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "100 g",
+      "name": "Zucker"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "200 g",
+      "name": "Butter, kalt"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "300 g",
+      "name": "Mehl"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "1 Prise",
+      "name": "Salz"
+    },
+    {
+      "group": "1-2-3-Mürbeteig",
+      "amount": "1 TL",
+      "name": "Vanilleextrakt"
+    },
+    {
+      "group": "Füllung & Dekoration",
+      "amount": "150 g",
+      "name": "Lemon Curd"
+    },
+    {
+      "group": "Füllung & Dekoration",
+      "amount": "5 g",
+      "name": "Süßer Schnee"
+    },
+    {
+      "group": "Füllung & Dekoration",
+      "amount": "30 g",
+      "name": "Weiße Schokolade"
+    }
+  ],
+  "meta": [
+    "60 Min. Zubereitung",
+    "10–15 Min. Backzeit",
+    "180 °C Heißluft",
+    "3 Std. Kühlzeit laut Übersicht"
+  ],
+  "steps": [
+    {
+      "title": "Teig kühlen",
+      "text": "Teigzutaten kurz verkneten, abdecken und 1–2 Stunden oder über Nacht kalt stellen."
+    },
+    {
+      "title": "Kreise ausstechen",
+      "text": "Kurz durchkneten, auf wenig Mehl 5 mm dick ausrollen. Kreise ausstechen; die Hälfte zusätzlich lochen. Auf Backfolie legen. Weitere 30 Minuten kühlen, alternativ 15 Minuten einfrieren."
+    },
+    {
+      "title": "Backen",
+      "text": "Bei vorgeheizten 180 °C Heißluft 10–15 Minuten backen, bis die Ränder leicht bräunen. Gelochte Deckel brauchen 1–2 Minuten weniger. Alternativ blechweise bei 200 °C Ober-/Unterhitze backen. Abkühlen lassen."
+    },
+    {
+      "title": "Füllen & verzieren",
+      "text": "Lemon Curd lauwarm erwärmen, dünn auf Böden spritzen. Deckel aufsetzen und Löcher nachfüllen. Schokolade schmelzen, darüberträufeln und mit süßem Schnee bestreuen."
+    }
+  ],
+  "tip": "Laut Sally in geschlossener Dose mit Backpapier zwischen den Schichten lagern und innerhalb etwa einer Woche verzehren.",
+  "source": {
+    "label": "Sallys Welt · Zitronenkekse mit Lemon Curd",
+    "url": "https://sallys-blog.de/rezepte/zitronenkekse-mit-lemon-curd"
+  }
 }
 ];
