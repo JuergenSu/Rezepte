@@ -23,8 +23,73 @@ window.RECIPES = [
       { title: 'Einfach weiterblättern', text: 'Wische nach links oder rechts über die Buchseiten. Du kannst auch die Schaltflächen unter dem Buch oder die Pfeiltasten verwenden.' },
       { title: 'Lieblingsgerichte wiederfinden', text: 'Über „Rezepte entdecken“ suchst du nach Namen, Zutaten oder Kategorien. Mit dem Band oben rechts setzt du ein Lesezeichen. Die Adresse im Browser verlinkt direkt zur geöffneten Seite.' }
     ],
-    tip: 'Noch ist Platz für deine Rezepte. Die nächste Seite zeigt das Layout als Muster – die echten Lieblingsgerichte folgen bald.'
+    tip: 'Unser erstes Beispiel: Kokosmakronen nach Sallys Welt. Blättere weiter und entdecke das Rezept mit Zutaten, Backzeit und Quellenlink.'
   },
+{
+  "id": "kokosmakronen-sally",
+  "title": "Kokosmakronen\n& Kokosbusserl",
+  "category": "Plätzchen · nach Sallys Welt",
+  "description": "Unser erstes Beispielrezept für die Weihnachtsbäckerei. Die Zubereitung ist kurz in eigenen Worten zusammengefasst; das Original findest du über den Quellenlink.",
+  "image": "assets/kokosmakronen.svg",
+  "imageAlt": "Illustration von goldgelben Kokosmakronen auf einem grünen Teller",
+  "imageCaption": "Eigene Illustration · kein Foto des Originalrezepts",
+  "servings": "ca. 80 Stück",
+  "ingredientsNote": "Oblaten mit 40 mm Durchmesser",
+  "ingredients": [
+    {
+      "amount": "3",
+      "name": "Eiweiß"
+    },
+    {
+      "amount": "1 Prise",
+      "name": "Salz"
+    },
+    {
+      "amount": "150 g",
+      "name": "Zucker"
+    },
+    {
+      "amount": "4 Tropfen",
+      "name": "Bittermandelaroma"
+    },
+    {
+      "amount": "200 g",
+      "name": "Kokosraspeln"
+    },
+    {
+      "amount": "80",
+      "name": "Oblaten (40 mm)"
+    }
+  ],
+  "meta": [
+    "15 Min. Zubereitung",
+    "15–18 Min. Backzeit",
+    "150 °C Heißluft"
+  ],
+  "steps": [
+    {
+      "title": "Ofen & Blech vorbereiten",
+      "text": "Den Backofen auf 150 °C Heißluft aufheizen. Ein Blech mit Backfolie auslegen."
+    },
+    {
+      "title": "Die Kokosmasse rühren",
+      "text": "Eiweiß und Salz zu festem Schnee aufschlagen. Den Zucker nach und nach zugeben und 6–8 Minuten weiterschlagen, bis keine Zuckerkristalle mehr spürbar sind. Aroma und Kokosraspeln kurz untermischen."
+    },
+    {
+      "title": "Portionieren & backen",
+      "text": "Mit einem kleinen Eisportionierer Häufchen auf die Oblaten setzen und auf dem Blech verteilen. 15–18 Minuten backen; die Oberfläche soll hell bleiben."
+    },
+    {
+      "title": "Abkühlen lassen",
+      "text": "Die Makronen erst ganz auskühlen lassen und anschließend in einer gut schließenden Keksdose aufbewahren."
+    }
+  ],
+  "tip": "Die Backzeit gilt je Blech. Vor dem Verpacken vollständig auskühlen lassen.",
+  "source": {
+    "label": "Sallys Welt · Kokosmakronen / Kokosbusserl",
+    "url": "https://sallys-blog.de/rezepte/kokosmakronen-kokosbusserl"
+  }
+},
   {
     id: 'musterseite',
     title: 'Hier zieht dein\nLieblingsrezept ein.',

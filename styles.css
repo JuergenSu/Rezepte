@@ -33,3 +33,5 @@
   .book.turn-next,.book.turn-previous{animation:none;}
 }
 @media screen and (max-width:360px){.brand{font-size:18px;}.brand small{display:none;}.brand-mark{font-size:27px;}.index-button{font-size:11px;padding:10px;}.page{padding-left:16px;padding-right:16px;}.pagination .page-button{padding:10px;font-size:12px;}}
+
+.recipe-source{margin:20px 0 6px;font-size:12px;line-height:1.7;color:#626d5d;overflow-wrap:anywhere}.recipe-source a{text-underline-offset:3px}.recipe-source small{display:block;margin-top:4px;font-size:11px;color:#7c8069}@media screen and (max-width:650px){.recipe-source{font-size:14px;line-height:1.8;margin-top:24px}.recipe-source a{display:inline-block;padding:6px 0}.recipe-source small{font-size:12px}}

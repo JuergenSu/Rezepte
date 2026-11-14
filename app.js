@@ -50,6 +50,23 @@
     }));
     $('recipe-tip').textContent = recipe.tip || '';
     $('recipe-tip').hidden = !recipe.tip;
+    const source = $('recipe-source');
+    source.replaceChildren();
+    source.hidden = true;
+    if (recipe.source?.url) {
+      try {
+        const url = new URL(recipe.source.url);
+        if (url.protocol === 'https:') {
+          const link = element('a', recipe.source.label || 'Originalrezept');
+          link.href = url.href;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          source.append(element('span', 'Quelle · '), link, element('small', 'Originalrezept online öffnen ↗'));
+          source.hidden = false;
+        }
+      } catch { /* Ohne gültigen HTTPS-Link keine Quelle anzeigen. */ }
+    }
+
     $('left-number').textContent = String(current * 2 + 1).padStart(2, '0');
     $('right-number').textContent = String(current * 2 + 2).padStart(2, '0');
     $('page-position').textContent = `${matchMedia('(max-width: 650px)').matches ? 'Eintrag' : 'Doppelseite'} ${current + 1} von ${recipes.length}`;
@@ -79,7 +96,7 @@
   function results() {
     const query = normalize($('search').value.trim());
     const matches = recipes.filter(recipe => {
-      const haystack = normalize([recipe.title, recipe.category, recipe.description,
+      const haystack = normalize([recipe.title, recipe.category, recipe.description, recipe.source?.label || '',
         ...recipe.ingredients.map(item => item.name), ...recipe.steps.map(step => `${step.title} ${step.text}`)].join(' '));
       return (!savedOnly || bookmarks.has(recipe.id)) && query.split(/\s+/).every(term => haystack.includes(term));
     });

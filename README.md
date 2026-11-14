@@ -18,7 +18,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Die beiden vorhandenen Einträge sind eine Willkommensseite und eine klar markierte Musterseite, keine echten Rezepte. Sie können später entfernt werden.
+Enthalten sind eine Willkommensseite, Kokosmakronen nach Sallys Welt als erstes echtes Beispielrezept und eine klar markierte Musterseite. Die Musterseite kann später entfernt werden.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -65,3 +65,9 @@ Eine neue Version wird im Hintergrund geladen. Nach dem Schließen aller Kochbuc
 ## Handy im Hochformat
 
 Bis 650 px Bildschirmbreite wird das Rezept als durchgehendes, einspaltiges Blatt angezeigt: Titel, Foto, Zutaten und danach die Zubereitung. Die Schrift ist zum Lesen beim Kochen größer. Oben bleiben die Rezeptsuche und die Sprungtasten „Überblick“, „Zutaten“ und „Zubereitung“ erreichbar; unten bleibt die Navigation zwischen Rezepten sichtbar. Beim Rezeptwechsel beginnt die Ansicht wieder oben. Die Bedienelemente berücksichtigen den geschützten Bildschirmrand und den Home-Indikator. Auf dem iPad bleibt die Doppelseite erhalten.
+
+## Beispielrezept und Quellen
+
+„Kokosmakronen & Kokosbusserl“ basiert auf [Sallys Welt: Kokosmakronen / Kokosbusserl](https://sallys-blog.de/rezepte/kokosmakronen-kokosbusserl), abgerufen am 14. November 2026. Mengen und Backdaten wurden anhand der Originalseite geprüft; die Anleitung ist in eigenen Worten zusammengefasst. Die lokale SVG-Illustration wurde für dieses Kochbuch erstellt und ist kein Originalfoto von Sallys Welt.
+
+Externe Rezepte können das optionale Feld `source: { label: 'Name der Quelle', url: 'https://…' }` erhalten. Die Quelle erscheint am Rezept und wird mit durchsucht. Der Link öffnet eine neue Registerkarte; das externe Original ist nur online verfügbar. Das gespeicherte Rezept samt Illustration bleibt offline lesbar.
