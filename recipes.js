@@ -481,5 +481,289 @@ window.RECIPES = [
     "label": "Sallys Welt · Bunter Plätzchen-Teller / Kaffeetaler",
     "url": "https://sallys-blog.de/rezepte/kaffeetaler"
   }
+},
+{
+  "id": "nuernberger-lebkuchen-sally",
+  "title": "Nürnberger\nLebkuchen",
+  "category": "Weihnachtsgebäck · nach Sallys Welt",
+  "description": "Klassische Nusslebkuchen auf Oblaten, pur oder glasiert. Nach Sallys Welt, in eigenen Worten zusammengefasst.",
+  "image": "assets/lebkuchen.svg",
+  "imageAlt": "Eigene Illustration runder Lebkuchen mit Zitronenguss und dunkler Schokoladenglasur",
+  "imageCaption": "Eigene Illustration · kein Originalfoto",
+  "servings": "24 Stück",
+  "ingredientsNote": "Oblaten mit 90 mm Durchmesser. Dekoration nach Wahl.",
+  "ingredients": [
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "250 g",
+      "name": "Mandeln"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "250 g",
+      "name": "Haselnüsse"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "200 g",
+      "name": "Orangeat"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "200 g",
+      "name": "Zitronat"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "6",
+      "name": "Eier"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "180 g",
+      "name": "Brauner Zucker"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "40 g",
+      "name": "Honig"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "1 TL",
+      "name": "Zimt"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "0,25 TL",
+      "name": "Muskatnuss, gerieben"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "0,25 TL",
+      "name": "Salz"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "1 Prise",
+      "name": "Kardamom"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "0,5 TL",
+      "name": "Nelken, gemahlen"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "1 TL",
+      "name": "Vanilleextrakt"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "20 g",
+      "name": "Ingwer, frisch oder gemahlen"
+    },
+    {
+      "group": "Lebkuchenmasse",
+      "amount": "24",
+      "name": "Oblaten (90 mm)"
+    },
+    {
+      "group": "Zitronenguss · nach Wahl",
+      "amount": "150 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Zitronenguss · nach Wahl",
+      "amount": "3 EL",
+      "name": "Zitronensaft"
+    },
+    {
+      "group": "Schokoladenglasur · nach Wahl",
+      "amount": "200 g",
+      "name": "Zartbitterkuvertüre"
+    }
+  ],
+  "meta": [
+    "25 Min. Zubereitung",
+    "20–25 Min. Backzeit",
+    "150 °C Ober-/Unterhitze"
+  ],
+  "steps": [
+    {
+      "title": "Masse herstellen",
+      "text": "Nüsse, Orangeat und Zitronat fein mahlen. Eier, Zucker und Honig 4–5 Minuten schaumig schlagen. Gemahlenes und die übrigen Massezutaten außer Oblaten kurz einrühren."
+    },
+    {
+      "title": "Auf Oblaten setzen",
+      "text": "Ofen auf 150 °C Ober-/Unterhitze vorheizen. Masse portionsweise auf Oblaten geben. Mit feuchten Fingern kuppelförmig glätten, dabei 0,5 cm Rand lassen. Auf Backfolie mit Abstand verteilen."
+    },
+    {
+      "title": "Backen",
+      "text": "20–25 Minuten hellbraun backen. Für Zitronenguss lauwarm, für Schokolade vollständig auf einem Gitter abkühlen lassen."
+    },
+    {
+      "title": "Glasur wählen",
+      "text": "Für Zitronenguss Puderzucker und Saft verrühren, lauwarme Lebkuchen bestreichen. Für Schokoglasur zwei Drittel der gehackten Kuvertüre über warmem Wasser schmelzen. Vom Wasserbad nehmen, Rest einrühren und abgekühlte Lebkuchen bestreichen. Fest werden lassen."
+    }
+  ],
+  "tip": "Auch pur servierbar. Nach dem Auskühlen luftdicht verpacken.",
+  "source": {
+    "label": "Sallys Welt · Nürnberger Lebkuchen – klassisch",
+    "url": "https://sallys-blog.de/rezepte/lebkuchen-rezept-nurnberger-lebkuchen-klassisch"
+  }
+},
+{
+  "id": "zimtsterne-sally",
+  "title": "Zimtsterne",
+  "category": "Plätzchen · nach Sallys Welt",
+  "description": "Mandelsterne mit Zimt und weißem Eiweißguss. Nach Sallys Welt, in eigenen Worten zusammengefasst.",
+  "image": "assets/zimtsterne.svg",
+  "imageAlt": "Eigene Illustration von Zimtsternen mit weißem Guss auf einem grünen Teller",
+  "imageCaption": "Eigene Illustration · kein Originalfoto",
+  "servings": "25 Stück",
+  "ingredientsNote": "Puderzucker zusätzlich für die Arbeitsfläche bereithalten.",
+  "ingredients": [
+    {
+      "group": "Teig",
+      "amount": "500 g",
+      "name": "Mandeln, gemahlen"
+    },
+    {
+      "group": "Teig",
+      "amount": "300 g",
+      "name": "Puderzucker"
+    },
+    {
+      "group": "Teig",
+      "amount": "2",
+      "name": "Eiweiß"
+    },
+    {
+      "group": "Teig",
+      "amount": "2 TL",
+      "name": "Zimt"
+    },
+    {
+      "group": "Teig",
+      "amount": "2 EL",
+      "name": "Mandelsirup"
+    },
+    {
+      "group": "Eiweißguss",
+      "amount": "1",
+      "name": "Eiweiß"
+    },
+    {
+      "group": "Eiweißguss",
+      "amount": "125 g",
+      "name": "Puderzucker"
+    }
+  ],
+  "meta": [
+    "20 Min. Zubereitung",
+    "20 Min. Ruhezeit",
+    "10–15 Min. Backzeit",
+    "150 °C Ober-/Unterhitze"
+  ],
+  "steps": [
+    {
+      "title": "Teig kneten",
+      "text": "Mandeln und Puderzucker mischen. Übrige Teigzutaten kurz unterkneten und den festen Teig etwa 20 Minuten ruhen lassen."
+    },
+    {
+      "title": "Guss aufschlagen",
+      "text": "Das Eiweiß für den Guss steif schlagen. Puderzucker zugeben und etwa 2 Minuten weiter aufschlagen."
+    },
+    {
+      "title": "Sterne ausstechen",
+      "text": "Ofen auf 150 °C Ober-/Unterhitze vorheizen. Teig auf einer mit Puderzucker bestreuten Matte 1 cm dick ausrollen. Sterne ausstechen und auf ein Blech mit Backfolie legen."
+    },
+    {
+      "title": "Bestreichen & backen",
+      "text": "Sterne mit dem Guss bestreichen und 10–15 Minuten backen. Die Oberfläche soll hell bleiben. Vollständig auskühlen lassen und luftdicht verpacken."
+    }
+  ],
+  "tip": "Laut Sally werden die Sterne nach einigen Tagen weicher.",
+  "source": {
+    "label": "Sallys Welt · Zimtsterne",
+    "url": "https://sallys-blog.de/rezepte/zimtsterne"
+  }
+},
+{
+  "id": "schokoladenschnitten",
+  "title": "Schokoladen-\nschnitten",
+  "category": "Familienrezept · handschriftliche Vorlage",
+  "description": "Schokoladenmasse zwischen großen Oblaten, nach deiner handschriftlichen Rezeptseite. Übertragen wurde die Grundmenge ohne die blassen Bleistift-Hochrechnungen.",
+  "image": "assets/schokoladenschnitten.svg",
+  "imageAlt": "Eigene Illustration rautenförmiger Schokoladenschnitten zwischen Oblaten mit bunten Streuseln",
+  "imageCaption": "Eigene Illustration · nach handschriftlicher Vorlage",
+  "servings": "1 Rezeptmenge",
+  "ingredientsNote": "6 rechteckige Oblaten, etwa 12 × 20 cm. Stückzahl abhängig von der Schnittgröße.",
+  "ingredients": [
+    {
+      "amount": "125 g",
+      "name": "Blockschokolade"
+    },
+    {
+      "amount": "125 g",
+      "name": "Zucker"
+    },
+    {
+      "amount": "1 Päckchen",
+      "name": "Vanillinzucker"
+    },
+    {
+      "amount": "3",
+      "name": "Eigelb"
+    },
+    {
+      "amount": "1",
+      "name": "Ei"
+    },
+    {
+      "amount": "125 g",
+      "name": "Palmin (Pflanzenfett)"
+    },
+    {
+      "amount": "6",
+      "name": "Oblaten (ca. 12 × 20 cm)"
+    },
+    {
+      "amount": "Nach Bedarf",
+      "name": "Bunte Streusel zum Bestreuen"
+    }
+  ],
+  "meta": [
+    "Ca. 5 Min. Kochzeit",
+    "Vollständig erkalten lassen"
+  ],
+  "steps": [
+    {
+      "title": "Schokolade schmelzen",
+      "text": "Die Blockschokolade zerlaufen lassen."
+    },
+    {
+      "title": "Masse verrühren",
+      "text": "Schokolade, Zucker, Vanillinzucker, Eigelb und Ei gut verrühren. Das Pflanzenfett schmelzen und dazugeben."
+    },
+    {
+      "title": "Vorsichtig kochen",
+      "text": "Alles zusammen etwa 5 Minuten kochen lassen. Die Vorlage warnt ausdrücklich vor dem Anbrennen; die Masse dabei sorgfältig rühren."
+    },
+    {
+      "title": "Oblaten bestreichen",
+      "text": "Die Masse noch heiß auf die Oblaten streichen. Ober- und Unterseite mit bunten Streuseln bestreuen. Die Vorlage nennt keine genaue Schichtaufteilung; die Illustration zeigt eine mögliche Anordnung."
+    },
+    {
+      "title": "In Rauten schneiden",
+      "text": "Vollständig erkalten lassen und danach in Rauten schneiden."
+    }
+  ],
+  "tip": "Lesart der Vorlage: jeweils 125 g Schokolade, Zucker und Palmin. Die blassen Zusatzmengen wurden als Hochrechnung verstanden und nicht übernommen.",
+  "source": {
+    "label": "Handschriftliche Rezeptseite · vom Nutzer bereitgestellt",
+    "note": "Ohne bekannten Verfasser oder externen Link. Unklare Schichtaufteilung ist am Arbeitsschritt kenntlich gemacht."
+  }
 }
 ];

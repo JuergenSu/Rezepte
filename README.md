@@ -20,7 +20,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl und Kaffeetaler nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de.
+Enthalten sind eine Willkommensseite, Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl, Kaffeetaler, Nürnberger Lebkuchen und Zimtsterne nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de sowie Schokoladenschnitten aus einer handschriftlichen Vorlage.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -96,3 +96,11 @@ Quelle: [Sallys Welt · Vanillekipferl](https://sallys-blog.de/rezepte/vanilleki
 ## Kaffeetaler
 
 Quelle: [Sallys Welt · Bunter Plätzchen-Teller / Kaffeetaler](https://sallys-blog.de/rezepte/kaffeetaler), direktes HTML geprüft am 14. November 2026. Übernommen wurden die Mengen des Einzelrezepts für 20 Stück (einschließlich 0,5 TL Vanilleextrakt), nicht die Mengen des kombinierten Plätzchentellers. Die Übersicht nennt 60 Minuten Kühlung; die Anleitung nennt mindestens 1 Stunde plus weitere 30 Minuten. Im Kochbuch stehen die beiden Arbeitsschritte getrennt. Die Anleitung ist in eigenen Worten zusammengefasst, die lokale SVG-Illustration selbst erstellt.
+
+## Nürnberger Lebkuchen und Zimtsterne
+
+Quellen: [Sallys Welt · Nürnberger Lebkuchen – klassisch](https://sallys-blog.de/rezepte/lebkuchen-rezept-nurnberger-lebkuchen-klassisch) und [Sallys Welt · Zimtsterne](https://sallys-blog.de/rezepte/zimtsterne), Originalseiten einschließlich Mengenfelder geprüft am 14. November 2026. Die Angaben gelten für 24 Lebkuchen mit 90-mm-Oblaten beziehungsweise 25 Zimtsterne. Die Anleitungen sind in eigenen Worten zusammengefasst. Bei den Lebkuchen sind Zitronenguss und Kuvertüre als wählbare Dekoration getrennt; die Backzeit folgt der Anleitung statt der kürzeren Übersichtsangabe. Beide Illustrationen sind eigene lokale SVG-Grafiken.
+
+## Schokoladenschnitten aus handschriftlicher Vorlage
+
+Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g Blockschokolade, Zucker und Palmin, 1 Päckchen Vanillinzucker, 3 Eigelb, 1 Ei und 6 Oblaten (ca. 12 × 20 cm). Die blassen Bleistiftmengen wurden als Verdreifachung gelesen und nicht übernommen. Die Vorlage nennt etwa 5 Minuten Kochzeit, weist auf Anbrenngefahr hin und sieht Rautenschnitte nach dem Erkalten vor. Die genaue Schichtaufteilung ist nicht beschrieben; diese Unklarheit ist im Rezept vermerkt. Die Illustration ist eine eigene schematische Darstellung, kein Foto des fertigen Gerichts.
