@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#254d40">
+  <meta name="description" content="Ein persönliches digitales Kochbuch zum Blättern, Suchen und Merken.">
+  <title>Unser Kochbuch</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="recipes.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="Zur ersten Buchseite"><span class="brand-mark" aria-hidden="true">❧</span><span>Unser Kochbuch<small>Gutes Essen. Gute Erinnerungen.</small></span></a>
+    <button id="open-index" class="index-button" aria-haspopup="dialog"><span aria-hidden="true">☷</span> Rezepte entdecken <span id="recipe-count" class="count"></span></button>
+  </header>
+  <main>
+    <div class="book-heading"><span>DIE PERSÖNLICHE REZEPTSAMMLUNG</span><span id="chapter">Der Anfang</span></div>
+    <article class="book" id="book" aria-label="Aufgeschlagenes Kochbuch">
+      <section class="page page-left" aria-labelledby="recipe-title">
+        <div class="eyebrow" id="recipe-category"></div>
+        <h1 id="recipe-title" tabindex="-1"></h1>
+        <p id="recipe-description" class="intro"></p>
+        <figure><img id="recipe-image" src="assets/kitchen.svg" alt="" width="800" height="420"><figcaption id="image-caption"></figcaption></figure>
+        <div class="ingredients-heading"><h2>Zutaten</h2><span id="servings"></span></div>
+        <p id="ingredients-note" class="small-note"></p>
+        <ul id="ingredients" class="ingredients"></ul>
+        <footer class="page-footer"><span>MIT LIEBE GESAMMELT</span><span id="left-number">01</span></footer>
+      </section>
+      <section class="page page-right" aria-labelledby="instructions-title">
+        <button id="bookmark" class="ribbon" aria-label="Lesezeichen setzen" aria-pressed="false" title="Lesezeichen setzen"><svg viewBox="0 0 24 28" width="21" height="25" aria-hidden="true"><path d="M5 3h14v22l-7-5-7 5z"/></svg></button>
+        <div class="eyebrow">SCHRITT FÜR SCHRITT</div>
+        <h2 id="instructions-title" class="instruction-title">So wird’s gemacht</h2>
+        <div id="recipe-meta" class="recipe-meta"></div>
+        <ol id="steps" class="steps"></ol>
+        <aside id="recipe-tip" class="tip"></aside>
+        <footer class="page-footer"><span>UNSER KOCHBUCH</span><span id="right-number">02</span></footer>
+      </section>
+    </article>
+    <nav class="pagination" aria-label="Im Kochbuch blättern"><button id="previous" class="page-button"><span aria-hidden="true">←</span> Zurück</button><div><span id="page-position"></span><small>Wischen oder mit den Pfeiltasten blättern</small></div><button id="next" class="page-button">Weiter <span aria-hidden="true">→</span></button></nav>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <footer class="site-footer"><span>Ein Platz für unsere Lieblingsrezepte.</span><span>Gesammelt, gekocht, weitergegeben.</span></footer>
+  <dialog id="index-dialog" aria-labelledby="index-title">
+    <div class="dialog-heading"><div><span class="eyebrow">INHALTSVERZEICHNIS</span><h2 id="index-title">Was kochen wir heute?</h2></div><button id="close-index" class="close-button" aria-label="Inhaltsverzeichnis schließen">×</button></div>
+    <label class="search-label" for="search">Rezepte durchsuchen</label><input id="search" type="search" placeholder="Titel, Zutat oder Kategorie …" autocomplete="off">
+    <div class="filter-row"><button id="all-filter" aria-pressed="true">Alle Rezepte</button><button id="saved-filter" aria-pressed="false">Nur Lesezeichen</button></div>
+    <p id="search-summary" class="small-note" role="status"></p><ul id="results" class="results"></ul>
+    <p class="storage-note">Lesezeichen bleiben in diesem Browser auf diesem Gerät gespeichert.</p>
+  </dialog>
+  <noscript><p>Bitte aktiviere JavaScript, um das Kochbuch zu öffnen und die Rezepte zu durchsuchen.</p></noscript>
+</body>
+</html>
