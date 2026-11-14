@@ -6,9 +6,16 @@
   <meta name="theme-color" content="#254d40">
   <meta name="description" content="Ein persönliches digitales Kochbuch zum Blättern, Suchen und Merken.">
   <title>Unser Kochbuch</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Kochbuch">
+  <link rel="icon" type="image/png" href="assets/icon-192.png">
   <link rel="stylesheet" href="styles.css">
   <script src="recipes.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="pwa.js" defer></script>
 </head>
 <body>
   <header class="masthead">
@@ -41,6 +48,8 @@
     <nav class="pagination" aria-label="Im Kochbuch blättern"><button id="previous" class="page-button"><span aria-hidden="true">←</span> Zurück</button><div><span id="page-position"></span><small>Wischen oder mit den Pfeiltasten blättern</small></div><button id="next" class="page-button">Weiter <span aria-hidden="true">→</span></button></nav>
     <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
   </main>
+  <div class="app-bar"><button id="install-app" class="page-button" hidden>Als App installieren <span aria-hidden="true">↗</span></button><p id="offline-status" role="status">Einmal online öffnen, dann auch offline im Kochbuch blättern.</p></div>
+  <dialog id="install-dialog" aria-labelledby="install-title"><div class="dialog-heading"><h2 id="install-title">Dein Kochbuch als App</h2><button id="close-install" class="close-button" aria-label="Installationshinweise schließen">×</button></div><p id="install-hint"></p><p>Öffne das Kochbuch zuerst einmal mit Internetverbindung. Sobald „Offline bereit“ erscheint, kannst du es auch ohne Internet verwenden. Lesezeichen bleiben lokal gespeichert.</p><button id="confirm-install" class="page-button" hidden>Jetzt installieren</button></dialog>
   <footer class="site-footer"><span>Ein Platz für unsere Lieblingsrezepte.</span><span>Gesammelt, gekocht, weitergegeben.</span></footer>
   <dialog id="index-dialog" aria-labelledby="index-title">
     <div class="dialog-heading"><div><span class="eyebrow">INHALTSVERZEICHNIS</span><h2 id="index-title">Was kochen wir heute?</h2></div><button id="close-index" class="close-button" aria-label="Inhaltsverzeichnis schließen">×</button></div>

@@ -45,3 +45,19 @@ Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfol
 ```
 
 Bilder unter `assets/` ablegen, möglichst komprimiert und im Querformat. Pfade relativ halten, damit die Website auch im Unterordner `/Rezepte/` funktioniert. Alle Texte werden als Klartext ausgegeben. Lange Zutatenlisten und Anleitungen lassen die Buchseiten mitwachsen; vertikales Scrollen bleibt möglich. Bei reduzierter Bewegung in den Systemeinstellungen entfällt die Blätteranimation.
+
+## Als App installieren (PWA)
+
+Die Website ist eine Progressive Web App mit eigenem Symbol und eigenem Fenster. Sie bleibt vollständig statisch und funktioniert auch unter dem GitHub-Pages-Unterordner `/Rezepte/`.
+
+- **iPad/iPhone:** Die veröffentlichte HTTPS-Adresse in Safari öffnen → Teilen → Zum Home-Bildschirm → gegebenenfalls „Als Web-App öffnen“ aktivieren → Hinzufügen.
+- **Android/Chrome und Desktop/Edge/Chrome:** „Als App installieren“ im Kochbuch wählen oder die Installationsfunktion des Browsers nutzen. Die direkte Schaltfläche erscheint, sobald der Browser die Installation anbietet.
+- Bereits installierte Apps zeigen die Installationshilfe nicht mehr im eigenen App-Fenster.
+- Die erstmalige Speicherung benötigt Internet. Erst nach „Offline bereit“ ist das Kochbuch ohne Verbindung verfügbar. Rezepte, Suche, Blättern und lokale Lesezeichen funktionieren dann weiterhin. Browserdaten können vom Benutzer oder Betriebssystem gelöscht werden; danach ist erneut ein Online-Aufruf nötig.
+- HTTPS (bei GitHub Pages automatisch) oder `localhost` ist erforderlich. Beim direkten Öffnen von `index.html` als Datei funktioniert das Kochbuch, aber ohne Service Worker und Offline-Installation.
+
+### Neue Versionen und Rezeptbilder
+
+Bei **jeder Veröffentlichung** mit geänderten App-Dateien oder Rezepten die `VERSION` in `sw.js` erhöhen (z. B. `v1` → `v2`). Neue lokale Rezeptfotos zusätzlich in `FILES` aufnehmen. So werden alle Inhalte als zusammengehörige Version offline gespeichert. Weitere besuchte lokale Bilder werden ebenfalls zwischengespeichert.
+
+Eine neue Version wird im Hintergrund geladen. Nach dem Schließen aller Kochbuchfenster wird sie beim nächsten Öffnen aktiv. Ein Hinweis zeigt an, wenn ein Update wartet. Es gibt kein erzwungenes Neuladen beim Kochen. Lesezeichen in `localStorage` bleiben beim App-Update erhalten. Der Service Worker entfernt nur eigene alte Caches dieses Kochbuchs, keine Daten anderer Projekte auf derselben GitHub-Pages-Domain.

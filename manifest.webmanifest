@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Unser Kochbuch",
+  "short_name": "Kochbuch",
+  "description": "Deine Lieblingsrezepte zum Blättern, Suchen und Merken – auch offline.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eae8de",
+  "theme_color": "#254d40",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
