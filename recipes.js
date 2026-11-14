@@ -90,6 +90,75 @@ window.RECIPES = [
     "url": "https://sallys-blog.de/rezepte/kokosmakronen-kokosbusserl"
   }
 },
+{
+  "id": "rumkugeln-sally",
+  "title": "Rumkugeln aus\nKuchenresten",
+  "category": "Pralinen · nach Sallys Welt",
+  "description": "Kleine Pralinen für übrig gebliebenen Kuchen. Mit Haselnüssen und Kakao, nach Sallys Welt – hier in eigenen Worten zusammengefasst.",
+  "image": "assets/rumkugeln.svg",
+  "imageAlt": "Eigene Illustration von kakaobestäubten Rumkugeln in Papierförmchen auf einem Teller",
+  "imageCaption": "Eigene Illustration · kein Foto des Originalrezepts",
+  "servings": "1 Rezeptmenge",
+  "ingredientsNote": "Die Stückzahl hängt von der Kugelgröße ab.",
+  "ingredients": [
+    {
+      "amount": "50 g",
+      "name": "Haselnüsse, gehackt"
+    },
+    {
+      "amount": "500 g",
+      "name": "Kuchenreste"
+    },
+    {
+      "amount": "100 g",
+      "name": "Skyr"
+    },
+    {
+      "amount": "100 g",
+      "name": "Frischkäse"
+    },
+    {
+      "amount": "50 g",
+      "name": "Brauner Rum"
+    },
+    {
+      "amount": "1 TL",
+      "name": "Vanilleextrakt"
+    },
+    {
+      "amount": "4 EL",
+      "name": "Kakao zum Wälzen"
+    }
+  ],
+  "meta": [
+    "20 Min. Zubereitung",
+    "Ohne Backen",
+    "Kühl aufbewahren"
+  ],
+  "steps": [
+    {
+      "title": "Haselnüsse anrösten",
+      "text": "Die gehackten Nüsse ohne zusätzliches Fett in einer beschichteten Pfanne leicht bräunen, bis sie duften."
+    },
+    {
+      "title": "Die Masse mischen",
+      "text": "Den Kuchen fein zerkrümeln. Mit Nüssen, Skyr, Frischkäse, Rum und Vanille zu einer einheitlichen Masse vermengen."
+    },
+    {
+      "title": "Kugeln formen",
+      "text": "Mit einem kleinen Portionierer gleichmäßige Mengen abnehmen, rund formen und im Kakao wenden."
+    },
+    {
+      "title": "Kalt stellen",
+      "text": "In einen dicht schließenden Behälter legen und bis zum Servieren im Kühlschrank aufbewahren."
+    }
+  ],
+  "tip": "Enthält Alkohol. Für eine Variante ohne Alkohol verweist Sally im Originalrezept auf einen alkoholfreien Ersatz.",
+  "source": {
+    "label": "Sallys Welt · Rumkugeln / Pralinen aus Kuchenresten",
+    "url": "https://sallys-blog.de/rezepte/rumkugeln-pralinen-aus-kuchenresten"
+  }
+},
   {
     id: 'musterseite',
     title: 'Hier zieht dein\nLieblingsrezept ein.',

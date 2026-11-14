@@ -18,7 +18,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen nach Sallys Welt als erstes echtes Beispielrezept und eine klar markierte Musterseite. Die Musterseite kann später entfernt werden.
+Enthalten sind eine Willkommensseite, Kokosmakronen und Rumkugeln nach Sallys Welt als Beispielrezepte und eine klar markierte Musterseite. Die Musterseite kann später entfernt werden.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
 
@@ -71,3 +71,5 @@ Bis 650 px Bildschirmbreite wird das Rezept als durchgehendes, einspaltiges Blat
 „Kokosmakronen & Kokosbusserl“ basiert auf [Sallys Welt: Kokosmakronen / Kokosbusserl](https://sallys-blog.de/rezepte/kokosmakronen-kokosbusserl), abgerufen am 14. November 2026. Mengen und Backdaten wurden anhand der Originalseite geprüft; die Anleitung ist in eigenen Worten zusammengefasst. Die lokale SVG-Illustration wurde für dieses Kochbuch erstellt und ist kein Originalfoto von Sallys Welt.
 
 Externe Rezepte können das optionale Feld `source: { label: 'Name der Quelle', url: 'https://…' }` erhalten. Die Quelle erscheint am Rezept und wird mit durchsucht. Der Link öffnet eine neue Registerkarte; das externe Original ist nur online verfügbar. Das gespeicherte Rezept samt Illustration bleibt offline lesbar.
+
+„Rumkugeln aus Kuchenresten“ basiert auf [Sallys Welt: Rumkugeln / Pralinen aus Kuchenresten](https://sallys-blog.de/rezepte/rumkugeln-pralinen-aus-kuchenresten), abgerufen am 14. November 2026. Zutaten und Zubereitungszeit wurden anhand der Originalseite geprüft; die Schritte sind in eigenen Worten zusammengefasst. Die Stückzahl hängt von der selbst gewählten Kugelgröße ab. Die Illustration ist eine eigene SVG-Grafik. Das vollständige Rezept und die Illustration sind im Offline-Speicher enthalten.
