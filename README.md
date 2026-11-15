@@ -108,7 +108,7 @@ Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g B
 
 ## Inhaltsverzeichnis und Kapitel
 
-Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner** sowie die Sushi-Bowl mit Lachs und Garnelen und der Avocado-Bacon-Egg-Burger. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner** sowie die Sushi-Bowl mit Lachs und Garnelen und der Avocado-Bacon-Egg-Burger. Im Kapitel **Kuchen** steht die Blaubeer-Eistorte mit Knusperboden. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
 
 Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
 
@@ -135,3 +135,7 @@ Auf ausdrückliche Auswahl des Nutzers aus einer eigenen E-Mail übernommen und 
 ## Avocado-Bacon-Egg-Burger
 
 Auf ausdrückliche Auswahl des Nutzers aus einer eigenen E-Mail übernommen und unter `herzhaft` eingeordnet. Mengen für drei Personen, mit separater Limetten-Aioli beziehungsweise optionaler Chipotle-Mayo. Die ungefähre Bratzeit aus der Vorlage bleibt als Richtwert erhalten; der Anleitungsschritt erläutert zusätzlich das vollständige Durchgaren des Hackfleischs. Zusätzlicher Limettensaft für die Avocado ist ohne erfundene Menge aufgeführt. Die Illustration ist eine eigene lokale SVG-Grafik. Private Maildaten und weitere nicht ausgewählte Rezepte werden nicht veröffentlicht.
+
+## Blaubeer-Eistorte mit Knusperboden · Kuchen
+
+Quelle: [Gilla auf Chefkoch · Blaubeer-Eistorte mit Knusperboden](https://www.chefkoch.de/rezepte/191211081343346/Blaubeer-Eistorte-mit-Knusperboden.html), geprüft am 15. November 2026. Mengen für eine Springform mit 24 cm Durchmesser; eine Stückzahl wurde nicht geschätzt. Das Rezept verwendet fertiges Vanilleeis, hat keine Backzeit und nennt 35 Minuten Arbeitszeit sowie eine Stunde im Gefrierfach. Der Hinweis auf bei Bedarf längeres Gefrieren ist eine praktische Ergänzung. Die Anleitung ist in eigenen Worten zusammengefasst, die lokale SVG-Illustration selbst erstellt.

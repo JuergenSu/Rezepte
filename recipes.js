@@ -14,6 +14,11 @@ window.CHAPTERS = [
     "id": "herzhaft",
     "title": "Herzhaft",
     "description": "Sättigende Lieblingsgerichte und gemeinsame Essen – vom Teig bis zur Füllung."
+  },
+  {
+    "id": "kuchen",
+    "title": "Kuchen",
+    "description": "Kuchen und Torten zum Teilen – aus dem Ofen oder aus dem Gefrierfach."
   }
 ];
 window.RECIPES = [
@@ -1283,6 +1288,73 @@ window.RECIPES = [
     "source": {
       "label": "Eigenes Rezept aus einer E-Mail",
       "note": "Aus der vom Nutzer ausgewählten Rezeptmail übertragen."
+    }
+  },
+  {
+    "id": "blaubeer-eistorte-knusperboden",
+    "title": "Blaubeer-Eistorte\nmit Knusperboden",
+    "chapter": "kuchen",
+    "category": "Kuchen",
+    "description": "Vanilleeis und Blaubeeren auf einem knusprigen Schoko-Cornflakes-Boden. Nach Gilla auf Chefkoch, in eigenen Worten zusammengefasst.",
+    "image": "assets/blaubeer-eistorte.svg",
+    "imageAlt": "Eigene Illustration einer violetten Blaubeer-Eistorte mit hellem Vanilleeis und dunklem Knusperboden",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "1 Torte · Springform Ø 24 cm",
+    "ingredientsNote": "Fertiges Vanilleeis verwenden. Kein Backofen erforderlich.",
+    "ingredients": [
+      {
+        "group": "Knusperboden",
+        "amount": "200 g",
+        "name": "Zartbitterschokolade"
+      },
+      {
+        "group": "Knusperboden",
+        "amount": "50 g",
+        "name": "Cornflakes"
+      },
+      {
+        "group": "Eisschichten & Beeren",
+        "amount": "500 g",
+        "name": "Heidelbeeren (Blaubeeren)"
+      },
+      {
+        "group": "Eisschichten & Beeren",
+        "amount": "2 EL",
+        "name": "Puderzucker"
+      },
+      {
+        "group": "Eisschichten & Beeren",
+        "amount": "1½ l",
+        "name": "Vanilleeis"
+      }
+    ],
+    "meta": [
+      "35 Min. Arbeitszeit",
+      "1 Std. Gefrierzeit laut Original",
+      "Ohne Backen"
+    ],
+    "steps": [
+      {
+        "title": "Knusperboden vorbereiten",
+        "text": "Eine Springform mit 24 cm Durchmesser mit Backpapier auslegen. Schokolade über einem Wasserbad schmelzen und Cornflakes untermischen. In der Form verteilen, festdrücken und abkühlen lassen."
+      },
+      {
+        "title": "Beeren & Eis vorbereiten",
+        "text": "Blaubeeren verlesen. Etwas mehr als die Hälfte mit dem Puderzucker pürieren. Vanilleeis mit dem Handmixer cremig rühren."
+      },
+      {
+        "title": "Torte schichten",
+        "text": "Die Hälfte des Vanilleeises auf den Boden streichen. Die Hälfte des Beerenpürees darauf verteilen. Übriges Eis mit dem restlichen Püree verrühren und als nächste Schicht auftragen."
+      },
+      {
+        "title": "Dekorieren & einfrieren",
+        "text": "Die übrigen ganzen Blaubeeren darübergeben. Die Form mit Frischhaltefolie abdecken und die Torte laut Original für 1 Stunde ins Gefrierfach stellen."
+      }
+    ],
+    "tip": "Die Torte wird gefroren fest. Bei Bedarf länger gefrieren lassen, bis sie sich gut schneiden lässt.",
+    "source": {
+      "label": "Gilla · Chefkoch · Blaubeer-Eistorte mit Knusperboden",
+      "url": "https://www.chefkoch.de/rezepte/191211081343346/Blaubeer-Eistorte-mit-Knusperboden.html"
     }
   }
 ];
