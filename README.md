@@ -20,7 +20,7 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Die Startseite zeigt das Inhaltsverzeichnis. Enthalten sind Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl, Kaffeetaler, Nürnberger Lebkuchen und Zimtsterne nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de sowie Schokoladenschnitten aus einer handschriftlichen Vorlage.
+Die Startseite zeigt das Inhaltsverzeichnis. Enthalten sind Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl, Kaffeetaler, Nürnberger Lebkuchen und Zimtsterne nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de sowie Schokoladenschnitten aus einer handschriftlichen Vorlage. Das Kapitel „Salate“ enthält den Schichtsalat mit Thunfischsoße aus einer fotografierten Rezeptseite.
 
 Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Kapitel in `window.CHAPTERS` bestimmen die Reihenfolge der Kapitel, innerhalb der Kapitel gilt die Reihenfolge der Rezeptdatensätze. Für das folgende Beispiel zuerst das Kapitel `suppen` ergänzen. Beispiel:
 
@@ -108,7 +108,7 @@ Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g B
 
 ## Inhaltsverzeichnis und Kapitel
 
-Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Alle derzeit vorhandenen acht Rezepte stehen im Kapitel **Plätzchen**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
 
 Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
 
@@ -117,3 +117,7 @@ Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beis
 ```
 
 Neue Rezepte erhalten dazu `chapter: 'suppen'` und `category: 'Suppen'`. Inhaltsverzeichnis, Suchfilter und Buchreihenfolge passen sich automatisch an. Leere Kapitel bleiben unsichtbar. Rezept-IDs und gespeicherte Lesezeichen bleiben unverändert. `#kapitel/plaetzchen` öffnet das Kapitel, `#inhaltsverzeichnis` die Startseite; der frühere Link `#willkommen` führt ebenfalls zum Inhaltsverzeichnis.
+
+## Schichtsalat mit Thunfischsoße
+
+Aus dem vom Nutzer bereitgestellten Foto einer gedruckten Rezeptseite übertragen; Buch und Verfasser sind nicht erkennbar. Das Rezept gehört zum Kapitel `salate` / „Salate“ und gilt für vier Personen. Die am rechten Rand abgeschnittenen Wortenden bei der Vorbereitung und Soßenzubereitung wurden sinngemäß vervollständigt und im Rezept kenntlich gemacht. Die Vorlage nennt keine genaue Durchziehzeit; es wurde keine geschätzt. Die lokale Illustration ist selbst erstellt.

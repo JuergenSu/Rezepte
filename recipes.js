@@ -4,6 +4,11 @@ window.CHAPTERS = [
     "id": "plaetzchen",
     "title": "Plätzchen",
     "description": "Kleine Lieblingsstücke für die Keksdose und den Weihnachtsteller."
+  },
+  {
+    "id": "salate",
+    "title": "Salate",
+    "description": "Frische Schichten, cremige Soßen und Lieblingssalate zum Teilen."
   }
 ];
 window.RECIPES = [
@@ -755,5 +760,115 @@ window.RECIPES = [
       "note": "Ohne bekannten Verfasser oder externen Link. Unklare Schichtaufteilung ist am Arbeitsschritt kenntlich gemacht."
     },
     "chapter": "plaetzchen"
+  },
+  {
+    "id": "schichtsalat-thunfischsosse",
+    "title": "Schichtsalat mit\nThunfischsoße",
+    "chapter": "salate",
+    "category": "Salate",
+    "description": "Salat, Tomaten, Schinken, Gurke und Ei in Schichten, dazu eine cremige Thunfischsoße. Nach deiner fotografierten Rezeptseite.",
+    "image": "assets/schichtsalat.svg",
+    "imageAlt": "Eigene Illustration einer Glasschüssel mit geschichtetem Salat, Gemüse, Schinken, Ei und heller Soße",
+    "imageCaption": "Eigene Illustration · kein Foto des Originalrezepts",
+    "servings": "4 Personen",
+    "ingredientsNote": "Zutaten für Salat und Soße getrennt bereitstellen.",
+    "ingredients": [
+      {
+        "group": "Salat",
+        "amount": "1 kleiner",
+        "name": "Eisbergsalat"
+      },
+      {
+        "group": "Salat",
+        "amount": "5",
+        "name": "Tomaten"
+      },
+      {
+        "group": "Salat",
+        "amount": "300 g",
+        "name": "Gekochter Schinken"
+      },
+      {
+        "group": "Salat",
+        "amount": "1",
+        "name": "Mini-Salatgurke"
+      },
+      {
+        "group": "Salat",
+        "amount": "4",
+        "name": "Eier"
+      },
+      {
+        "group": "Salat",
+        "amount": "1 Bund",
+        "name": "Frühlingszwiebeln"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "150 g",
+        "name": "Thunfisch natur (Dose)"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "2",
+        "name": "Knoblauchzehen"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "1 Zitrone",
+        "name": "Saft"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "375 ml",
+        "name": "Mayonnaise"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "200 g",
+        "name": "Joghurt"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "150 g",
+        "name": "Crème fraîche"
+      },
+      {
+        "group": "Thunfischsoße",
+        "amount": "Nach Geschmack",
+        "name": "Salz und Pfeffer"
+      }
+    ],
+    "meta": [
+      "10 Min. Eier kochen",
+      "Gekühlt durchziehen lassen"
+    ],
+    "steps": [
+      {
+        "title": "Salat & Gemüse vorbereiten",
+        "text": "Eisbergsalat vierteln, den Strunk entfernen, putzen, waschen und trocken schleudern. In feine Streifen schneiden. Tomaten waschen, halbieren und fein würfeln. Gurke waschen und würfeln; Frühlingszwiebeln putzen, waschen und in feine Ringe schneiden."
+      },
+      {
+        "title": "Schinken & Eier würfeln",
+        "text": "Schinken würfeln. Eier in etwa 10 Minuten hart kochen, pellen und würfeln."
+      },
+      {
+        "title": "In die Schüssel schichten",
+        "text": "Eisbergsalat, Tomaten, Schinken, Gurke, Eier und Frühlingszwiebeln in dieser Reihenfolge in eine große Glasschüssel schichten."
+      },
+      {
+        "title": "Thunfischsoße zubereiten",
+        "text": "Thunfisch abtropfen lassen. Knoblauch schälen und fein hacken. Beides mit Zitronensaft fein pürieren. Mit Mayonnaise, Joghurt und Crème fraîche verrühren; mit Salz und Pfeffer abschmecken."
+      },
+      {
+        "title": "Kalt stellen",
+        "text": "Die Soße über den Schichtsalat geben und gekühlt gut durchziehen lassen. Eine genaue Dauer nennt die Vorlage nicht."
+      }
+    ],
+    "tip": "Am rechten Bildrand sind einige Wortenden der Vorbereitung und Soßenzubereitung abgeschnitten; diese Handgriffe wurden sinngemäß vervollständigt.",
+    "source": {
+      "label": "Fotografierte Rezeptseite · Schichtsalat mit Thunfischsoße",
+      "note": "Vom Nutzer bereitgestellt; Buch und Verfasser sind nicht erkennbar. Die Zutatenmengen wurden aus dem Foto übertragen, ohne erfundenen Quellenlink."
+    }
   }
 ];
