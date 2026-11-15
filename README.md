@@ -108,7 +108,7 @@ Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g B
 
 ## Inhaltsverzeichnis und Kapitel
 
-Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
 
 Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
 
@@ -121,3 +121,9 @@ Neue Rezepte erhalten dazu `chapter: 'suppen'` und `category: 'Suppen'`. Inhalts
 ## Schichtsalat mit Thunfischsoße
 
 Aus dem vom Nutzer bereitgestellten Foto einer gedruckten Rezeptseite übertragen; Buch und Verfasser sind nicht erkennbar. Das Rezept gehört zum Kapitel `salate` / „Salate“ und gilt für vier Personen. Die am rechten Rand abgeschnittenen Wortenden bei der Vorbereitung und Soßenzubereitung wurden sinngemäß vervollständigt und im Rezept kenntlich gemacht. Die Vorlage nennt keine genaue Durchziehzeit; es wurde keine geschätzt. Die lokale Illustration ist selbst erstellt.
+
+## Mexican Diner · Herzhaft
+
+Tortilla-Teig und Rindfleisch-Tortillas wurden aus dem Nutzerfoto der gedruckten Seite 21 übertragen, jeweils für sechs Personen. Buch und Verfasser sind unbekannt. Der Teig ist laut Vorlage flüssig wie Crêpe-Teig, mit 10 g Salz und einer Stunde Kühlschrankruhe. Für die Kochplatte nennt der Ausschnitt keine Temperatur. Beim Rindfleisch wurden 25 cl Bouillon als 250 ml erläutert. Das optionale selbst gemachte Bohnenpüree ist als Alternative zum fertigen Püree getrennt. Die separat referenzierte Tomatensauce ist nicht abgebildet; dafür wurden weder Mengen noch eine Anleitung erfunden. Die nicht angeforderte Hühnchenvariante wurde nicht aufgenommen. Beide Illustrationen sind selbst erstellte SVG-Grafiken.
+
+Zusammengehörige Rezepte unterstützen `menu` (z. B. „Mexican Diner“) und `relatedRecipeIds` (Liste vorhandener Rezept-IDs). Der Menüname erscheint am Rezept, im Inhaltsverzeichnis und in Suchtreffern und wird mit durchsucht. Passende Rezepte werden direkt verlinkt, auch offline. Ungültige oder auf sich selbst zeigende Verweise werden nicht angezeigt.

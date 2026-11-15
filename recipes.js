@@ -9,6 +9,11 @@ window.CHAPTERS = [
     "id": "salate",
     "title": "Salate",
     "description": "Frische Schichten, cremige Soßen und Lieblingssalate zum Teilen."
+  },
+  {
+    "id": "herzhaft",
+    "title": "Herzhaft",
+    "description": "Sättigende Lieblingsgerichte und gemeinsame Essen – vom Teig bis zur Füllung."
   }
 ];
 window.RECIPES = [
@@ -869,6 +874,187 @@ window.RECIPES = [
     "source": {
       "label": "Fotografierte Rezeptseite · Schichtsalat mit Thunfischsoße",
       "note": "Vom Nutzer bereitgestellt; Buch und Verfasser sind nicht erkennbar. Die Zutatenmengen wurden aus dem Foto übertragen, ohne erfundenen Quellenlink."
+    }
+  },
+  {
+    "id": "tortilla-teig",
+    "title": "Tortilla-Teig",
+    "chapter": "herzhaft",
+    "category": "Herzhaft",
+    "menu": "Mexican Diner",
+    "description": "Ein flüssiger Tortilla-Teig wie ein Crêpe-Teig aus Weizen- und Maismehl. Grundrezept für unseren Mexican Diner nach der fotografierten Vorlage.",
+    "image": "assets/tortilla-teig.svg",
+    "imageAlt": "Eigene Illustration eines Stapels dünner goldgelber Tortillas",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "6 Personen",
+    "ingredientsNote": "Maismehl verwenden, nicht Maisstärke. Die Vorlage nennt 10 g Salz.",
+    "ingredients": [
+      {
+        "amount": "125 g",
+        "name": "Weizenmehl"
+      },
+      {
+        "amount": "125 g",
+        "name": "Maismehl"
+      },
+      {
+        "amount": "10 g",
+        "name": "Salz"
+      },
+      {
+        "amount": "3 EL",
+        "name": "Olivenöl"
+      },
+      {
+        "amount": "350 ml",
+        "name": "Wasser"
+      }
+    ],
+    "meta": [
+      "15 Min. Zubereitung",
+      "1 Std. Ruhezeit im Kühlschrank",
+      "Je Seite ca. 1 Min. 30 Sek."
+    ],
+    "steps": [
+      {
+        "title": "Teig glatt rühren",
+        "text": "Alle Zutaten mit einem elektrischen Rührgerät, Mixer oder Schneebesen zu einem glatten, gleichmäßigen Teig wie für Crêpes verrühren. Es sollen keine Klümpchen bleiben."
+      },
+      {
+        "title": "Eine Stunde ruhen lassen",
+        "text": "Den Teig in eine Schüssel geben und 1 Stunde im Kühlschrank ruhen lassen."
+      },
+      {
+        "title": "Tortillas ausbacken",
+        "text": "Je Tortilla 2 EL Teig abmessen und auf die Kochplatte geben. Von jeder Seite etwa 1 Minute 30 Sekunden backen. Mit dem übrigen Teig ebenso verfahren. Eine Temperaturangabe nennt der abgebildete Abschnitt nicht."
+      }
+    ],
+    "tip": "Das ist ein flüssiger Teig zum Ausbacken, kein Teig zum Ausrollen. Die Vorlage beschreibt die Zubereitung auf einer Kochplatte.",
+    "relatedRecipeIds": [
+      "rindfleisch-tortillas"
+    ],
+    "source": {
+      "label": "Fotografierte Rezeptseite · Tortilla-Teig, Seite 21",
+      "note": "Vom Nutzer bereitgestellt; Buch und Verfasser nicht erkennbar. Mengen und Angaben zur Kochplatte aus dem Foto übertragen."
+    }
+  },
+  {
+    "id": "rindfleisch-tortillas",
+    "title": "Rindfleisch-\nTortillas",
+    "chapter": "herzhaft",
+    "category": "Herzhaft",
+    "menu": "Mexican Diner",
+    "description": "Tortillas mit Rinderfilet, roten Bohnen, Salat, Tomate und Gouda. Zusammen mit dem Tortilla-Grundteig als Mexican Diner servieren.",
+    "image": "assets/rindfleisch-tortillas.svg",
+    "imageAlt": "Eigene Illustration gefüllter Tortillas mit Rindfleisch, Salat, Tomaten und geriebenem Käse",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "6 Personen",
+    "ingredientsNote": "Tomatensauce und Tortilla-Teig werden in der Vorlage separat referenziert. Der Teig ist unten verlinkt; das Saucenrezept ist nicht abgebildet.",
+    "ingredients": [
+      {
+        "group": "Füllung",
+        "amount": "250 g",
+        "name": "Rinderfilet"
+      },
+      {
+        "group": "Füllung",
+        "amount": "25 cl (250 ml)",
+        "name": "Fleischbouillon"
+      },
+      {
+        "group": "Füllung",
+        "amount": "1 Dose (225 g)",
+        "name": "Pürierte rote Bohnen (Frijoles refritos)"
+      },
+      {
+        "group": "Füllung",
+        "amount": "1 (ca. 200 g)",
+        "name": "Fleischtomate"
+      },
+      {
+        "group": "Füllung",
+        "amount": "6",
+        "name": "Salatblätter, z. B. Kopf-, Romanasalat oder Eisbergsalat"
+      },
+      {
+        "group": "Füllung",
+        "amount": "80 g",
+        "name": "Mittelalter Gouda"
+      },
+      {
+        "group": "Füllung",
+        "amount": "Nach Geschmack",
+        "name": "Salz"
+      },
+      {
+        "group": "Zum Füllen & Servieren",
+        "amount": "1 Rezeptmenge",
+        "name": "Tortilla-Teig für 6 Personen (unten verlinkt)"
+      },
+      {
+        "group": "Zum Füllen & Servieren",
+        "amount": "Nach Bedarf",
+        "name": "Tomatensauce (separates Rezept fehlt im Foto)"
+      },
+      {
+        "group": "Zum Füllen & Servieren",
+        "amount": "Nach Belieben",
+        "name": "Guacamole oder feine Avocadostreifen"
+      },
+      {
+        "group": "Bohnenpüree · Alternative zum fertigen Püree",
+        "amount": "1 Dose (225 g Abtropfgewicht)",
+        "name": "Rote Bohnen, statt des fertigen Bohnenpürees"
+      },
+      {
+        "group": "Bohnenpüree · Alternative zum fertigen Püree",
+        "amount": "1 kleine",
+        "name": "Zwiebel"
+      },
+      {
+        "group": "Bohnenpüree · Alternative zum fertigen Püree",
+        "amount": "2",
+        "name": "Knoblauchzehen"
+      },
+      {
+        "group": "Bohnenpüree · Alternative zum fertigen Püree",
+        "amount": "Nach Geschmack",
+        "name": "Salz und Chilipulver"
+      }
+    ],
+    "meta": [
+      "Ca. 30 Min. Fleisch garen",
+      "Tortilla-Teig: 1 Std. Ruhezeit einplanen"
+    ],
+    "steps": [
+      {
+        "title": "Rindfleisch garen",
+        "text": "Rinderfilet mit der Fleischbouillon in einen Topf geben, aufkochen und bei mittlerer Hitze zugedeckt etwa 30 Minuten garen. Herausnehmen, abkühlen lassen, in feine Scheiben schneiden und salzen."
+      },
+      {
+        "title": "Gemüse & Käse vorbereiten",
+        "text": "Salatblätter waschen, putzen und klein schneiden. Die Tomate blanchieren, häuten, entkernen und fein würfeln. Gouda reiben. Füllungszutaten, Tomatensauce und Bohnenpüree in Schüsseln bereitstellen."
+      },
+      {
+        "title": "Optional: Bohnenpüree selbst machen",
+        "text": "Nur wenn kein fertiges Püree verwendet wird: Bohnen abgießen, dabei die Hälfte der Dosenflüssigkeit auffangen. Bohnen mit dieser Flüssigkeit pürieren. Zwiebel schälen, hacken und glasig dünsten. Knoblauch schälen und hacken. Mit dem Püree zur Zwiebel geben, bei kleiner Hitze etwa 5 Minuten köcheln und mit Salz und Chilipulver abschmecken. Ein Fett und dessen Menge zum Dünsten sind im Foto nicht genannt."
+      },
+      {
+        "title": "Tortillas füllen",
+        "text": "Tortillas nach dem verlinkten Grundrezept backen. Eine Seite mit Bohnenpüree bestreichen. Etwas Fleisch, Salat und Tomaten darauf verteilen, mit Tomatensauce beträufeln und Käse darüberstreuen. Der Lichtreflex verdeckt im Foto einzelne Wortteile dieses Schritts; sie wurden sinngemäß ergänzt."
+      },
+      {
+        "title": "Falten & servieren",
+        "text": "Tortillas zweimal falten oder aufrollen und mit den Fingern essen. Dazu Guacamole oder feine Avocadostreifen reichen."
+      }
+    ],
+    "tip": "Gouda kann laut Vorlage durch Cheddar ersetzt werden. Das Rezept für die Tomatensauce fehlt auf dem Foto; dafür wurde keine Anleitung erfunden.",
+    "relatedRecipeIds": [
+      "tortilla-teig"
+    ],
+    "source": {
+      "label": "Fotografierte Rezeptseite · Seite 21",
+      "note": "Vom Nutzer bereitgestellt. Buch und Verfasser nicht erkennbar; die Tomatensauce wird auf der Vorlage separat referenziert und ist nicht abgebildet."
     }
   }
 ];

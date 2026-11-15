@@ -55,6 +55,7 @@
         const link = element('a');
         link.href = `#${encodeURIComponent(recipe.id)}`;
         const title = element('span', recipe.title.replace(/\n/g, ' '));
+        if (recipe.menu) title.append(element('small', recipe.menu, 'toc-menu'));
         const page = element('span', recipePage(index), 'toc-page');
         page.setAttribute('aria-label', `Seite ${Number(recipePage(index))}`);
         link.append(title, page);
@@ -94,7 +95,7 @@
     const recipe = recipes[current];
     $('recipe-title').textContent = recipe.title;
     document.title = `${recipe.title.replace(/\n/g, ' ')} · Unser Kochbuch`;
-    $('recipe-category').textContent = recipe.category;
+    $('recipe-category').textContent = [recipe.category, recipe.menu].filter(Boolean).join(' · ');
     $('chapter').textContent = chapterFor(recipe).title;
     $('recipe-description').textContent = recipe.description || '';
     $('recipe-image').src = recipe.image || 'assets/kitchen.svg';
@@ -123,6 +124,19 @@
     }));
     $('recipe-tip').textContent = recipe.tip || '';
     $('recipe-tip').hidden = !recipe.tip;
+    const related = $('related-recipes');
+    const relatedRecipes = (recipe.relatedRecipeIds || []).map(id => recipes.find(item => item.id === id)).filter(item => item && item.id !== recipe.id);
+    related.hidden = relatedRecipes.length === 0;
+    related.replaceChildren();
+    if (relatedRecipes.length) {
+      related.append(element('span', 'Dazu gehört', 'eyebrow'));
+      relatedRecipes.forEach(item => {
+        const link = element('a', item.title.replace(/\n/g, ' '));
+        link.href = `#${encodeURIComponent(item.id)}`;
+        related.append(link);
+      });
+    }
+
     const source = $('recipe-source');
     source.replaceChildren();
     source.hidden = true;
@@ -173,7 +187,7 @@
   function results() {
     const query = normalize($('search').value.trim());
     const matches = recipes.filter(recipe => {
-      const haystack = normalize([recipe.title, recipe.category, chapterFor(recipe).title, recipe.description, recipe.source?.label || '',
+      const haystack = normalize([recipe.title, recipe.category, recipe.menu || '', chapterFor(recipe).title, recipe.description, recipe.source?.label || '',
         ...recipe.ingredients.map(item => `${item.group || ''} ${item.name}`), ...recipe.steps.map(step => `${step.title} ${step.text}`)].join(' '));
       return (!$('chapter-filter').value || recipe.chapter === $('chapter-filter').value) && (!savedOnly || bookmarks.has(recipe.id)) && query.split(/\s+/).every(term => haystack.includes(term));
     });
@@ -182,7 +196,7 @@
       const li = element('li');
       const button = element('button', undefined, 'result-button');
       const title = element('span', recipe.title.replace(/\n/g, ' '));
-      title.append(element('small', chapterFor(recipe).title));
+      title.append(element('small', [chapterFor(recipe).title, recipe.menu].filter(Boolean).join(' · ')));
       button.append(title, element('span', bookmarks.has(recipe.id) ? '◆' : '→'));
       button.addEventListener('click', () => {
         dialog.close();

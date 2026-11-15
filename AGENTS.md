@@ -181,3 +181,10 @@ Abschließend knapp berichten, was geändert wurde, wo es liegt und was tatsäch
 - Von jedem Rezept führt „Inhalt“ oder der Buchtitel zurück zum Inhaltsverzeichnis. Beim ersten Rezept führt Zurück dorthin; von dort führt Weiter zum ersten Rezept. Leere Sammlungen zeigen eine verständliche Meldung, keinen Fehler.
 - Auf dem Handy keine Zutaten-/Zubereitung-Sprungtasten auf der Inhaltsseite zeigen. Kapitel- und Rezeptlinks müssen per Tastatur, Touch und offline funktionieren. Verborgene Rezeptinhalte dürfen nicht im Inhaltsverzeichnis mitgedruckt werden und umgekehrt.
 - Bei Änderungen prüfen: Start ohne Hash, alter Willkommen-Link, Kapitel-Link, bestehender Rezept-Direktlink, Browserhistorie, Wechsel erstes/letztes Rezept, mehrere Kapitel und leere Sammlung. Bestehende Rezept-Lesezeichen bleiben erhalten.
+
+## 11. Zusammengehörige Rezepte und Menüs
+
+- `menu` ist ein optionaler Anzeigename für zusammengehörige Rezepte innerhalb eines Kapitels, etwa „Mexican Diner“ unter `herzhaft` / „Herzhaft“. Er erscheint in Inhaltsverzeichnis, Rezeptüberschrift und Suchtreffern und ist durchsuchbar. Das Kapitel bleibt die primäre Kategorie; keine kombinierten Kapitel-IDs für Menünamen anlegen.
+- `relatedRecipeIds` ist eine optionale Liste vorhandener Rezept-IDs. Die gemeinsame Darstellung erzeugt daraus Links unter „Dazu gehört“. Fehlende Ziele und Selbstverweise werden ausgeblendet. IDs nicht umbenennen; Verweise bei Löschungen mitpflegen.
+- Bei Teigen, Füllungen und Beilagen aus mehreren Vorlagen nur tatsächlich bekannte Anleitungen übernehmen. Fehlende referenzierte Rezepte offen benennen, keine scheinbar vollständige Anleitung erfinden. Nur ausdrücklich angeforderte Varianten aufnehmen.
+- Neue Querverweise auf beiden Seiten sowie per Browserhistorie und offline testen; sie müssen auch im Druck als Rezeptnamen erscheinen.
