@@ -1356,5 +1356,165 @@ window.RECIPES = [
       "label": "Gilla · Chefkoch · Blaubeer-Eistorte mit Knusperboden",
       "url": "https://www.chefkoch.de/rezepte/191211081343346/Blaubeer-Eistorte-mit-Knusperboden.html"
     }
+  },
+  {
+    "id": "passionsfrucht-kaesetorte",
+    "title": "Passionsfrucht-\nKäsetorte",
+    "chapter": "kuchen",
+    "category": "Kuchen",
+    "description": "Vier helle und dunkle Böden mit fruchtiger Quarkcreme und Passionsfruchtsoße. Nach der vom Nutzer bereitgestellten Rezeptvorlage.",
+    "image": "assets/passionsfrucht-kaesetorte.svg",
+    "imageAlt": "Eigene Illustration einer geschichteten Käsetorte mit hellen und dunklen Böden, gelber Passionsfruchtsoße und Melissenblättern",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "16 Stücke · Springformen Ø 26 cm",
+    "ingredientsNote": "Zucker insgesamt 425 g: 225 g für die Böden, 100 g für den Fruchtmix und 100 g für die Creme. Insgesamt 8 Eier: je 4 für Böden und Creme.",
+    "ingredients": [
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "400 g",
+        "name": "Mehl"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "1 Päckchen",
+        "name": "Backpulver"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "2 Päckchen",
+        "name": "Vanillezucker"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "1 Prise",
+        "name": "Salz"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "200 g",
+        "name": "Butter"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "225 g",
+        "name": "Zucker"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "4",
+        "name": "Eier"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "200 g",
+        "name": "Crème fraîche"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "3 EL",
+        "name": "Kakaopulver"
+      },
+      {
+        "group": "Heller & dunkler Boden",
+        "amount": "3 EL",
+        "name": "Milch"
+      },
+      {
+        "group": "Passionsfrucht-Mix & Soße",
+        "amount": "5",
+        "name": "Passionsfrüchte (Maracuja)"
+      },
+      {
+        "group": "Passionsfrucht-Mix & Soße",
+        "amount": "400 ml",
+        "name": "Passionsfruchtnektar"
+      },
+      {
+        "group": "Passionsfrucht-Mix & Soße",
+        "amount": "100 g",
+        "name": "Zucker"
+      },
+      {
+        "group": "Passionsfrucht-Mix & Soße",
+        "amount": "1 EL",
+        "name": "Stärke"
+      },
+      {
+        "group": "Passionsfrucht-Mix & Soße",
+        "amount": "Etwas",
+        "name": "Kaltes Wasser zum Anrühren der Stärke"
+      },
+      {
+        "group": "Creme",
+        "amount": "8 Blatt",
+        "name": "Gelatine"
+      },
+      {
+        "group": "Creme",
+        "amount": "4",
+        "name": "Eier, getrennt"
+      },
+      {
+        "group": "Creme",
+        "amount": "100 g",
+        "name": "Zucker"
+      },
+      {
+        "group": "Creme",
+        "amount": "500 g",
+        "name": "Sahnequark"
+      },
+      {
+        "group": "Creme",
+        "amount": "250 g",
+        "name": "Sahne"
+      },
+      {
+        "group": "Dekoration",
+        "amount": "Nach Bedarf",
+        "name": "Melissenblätter"
+      }
+    ],
+    "meta": [
+      "Ca. 50 Min. Zubereitung",
+      "Ca. 25 Min. Backzeit je Teighälfte",
+      "Ca. 3 Std. Kühlzeit + Abkühlen",
+      "160 °C E-Herd / 140 °C Umluft"
+    ],
+    "steps": [
+      {
+        "title": "Teig anrühren",
+        "text": "Mehl, Backpulver, Vanillezucker und 1 Prise Salz mischen. Butter mit 225 g Zucker hellcremig rühren. 4 Eier einzeln unterrühren. Mehlmischung und Crème fraîche zugeben und 1 Minute unterrühren."
+      },
+      {
+        "title": "Böden backen & teilen",
+        "text": "Den Teig halbieren. Unter eine Hälfte Kakao und Milch rühren. Jede Teighälfte in eine mit Backpapier ausgelegte Springform mit 26 cm Durchmesser streichen. Nacheinander im heißen Ofen bei 160 °C E-Herd, 140 °C Umluft oder Gas Stufe 2 jeweils etwa 25 Minuten backen. Aus den Formen lösen, abkühlen lassen, jeweils waagerecht halbieren und die Ränder abschneiden."
+      },
+      {
+        "title": "Fruchtmix & Soße kochen",
+        "text": "Gelatine einweichen. Passionsfrüchte halbieren und das Fruchtfleisch auslöffeln. Mit Nektar und 100 g Zucker aufkochen. Eine Hälfte des Fruchtmixes für die Creme beiseitestellen. Die andere Hälfte erneut aufkochen. Stärke mit etwas kaltem Wasser anrühren und diese Hälfte damit binden. Die Soße abkühlen lassen."
+      },
+      {
+        "title": "Creme zubereiten",
+        "text": "Die übrigen 4 Eier trennen. Eigelbe mit 100 g Zucker schaumig rühren. Den beiseitegestellten, ungebundenen Fruchtmix zugeben. Unter Rühren erhitzen, bis die Masse leicht andickt; nicht kochen lassen. Gelatine ausdrücken und darin auflösen. Vom Herd nehmen und den Quark unterrühren."
+      },
+      {
+        "title": "Eischnee & Sahne unterheben",
+        "text": "Eiweiße und Sahne getrennt steif schlagen. Zuerst den Eischnee, danach die geschlagene Sahne unter die Quarkmasse heben."
+      },
+      {
+        "title": "Torte schichten",
+        "text": "Einen Tortenring um einen hellen Boden legen und ein Viertel der Creme daraufstreichen. Abwechselnd dunkle und helle Böden mit Cremeschichten auflegen. Mit einer Cremeschicht abschließen."
+      },
+      {
+        "title": "Kühlen & verzieren",
+        "text": "Die Torte etwa 3 Stunden kühlen. Die abgekühlte Passionsfruchtsoße darübergeben und mit Melissenblättern verzieren."
+      }
+    ],
+    "tip": "Nährwerte laut Vorlage pro Stück: ca. 495 kcal · 27 g Fett · 52 g Kohlenhydrate · 11 g Eiweiß.",
+    "source": {
+      "label": "Vom Nutzer bereitgestellte Rezeptvorlage · Passionsfrucht-Käsetorte",
+      "note": "Ohne genannten Verfasser oder externen Link. Nährwerte aus der Vorlage übernommen, nicht neu berechnet."
+    }
   }
 ];
