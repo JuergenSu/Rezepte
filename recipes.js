@@ -1056,5 +1056,110 @@ window.RECIPES = [
       "label": "Fotografierte Rezeptseite · Seite 21",
       "note": "Vom Nutzer bereitgestellt. Buch und Verfasser nicht erkennbar; die Tomatensauce wird auf der Vorlage separat referenziert und ist nicht abgebildet."
     }
+  },
+  {
+    "id": "sushi-bowl-lachs-garnelen",
+    "title": "Sushi-Bowl mit\nLachs & Garnelen",
+    "chapter": "herzhaft",
+    "category": "Herzhaft",
+    "description": "Sushi-Reis mit Räucherlachs, gebratenen Garnelen, Gurke und Avocado. Dazu Sriracha-Mayonnaise, Nori und Sesam.",
+    "image": "assets/sushi-bowl.svg",
+    "imageAlt": "Eigene Illustration einer Bowl mit Reis, Lachs, Garnelen, Gurke und Avocado",
+    "imageCaption": "Eigene Illustration · kein Foto des fertigen Gerichts",
+    "servings": "5 Personen",
+    "ingredientsNote": "Die Wassermenge richtet sich laut Vorlage nach dem Volumen des Reises, nicht nach dessen Gewicht.",
+    "ingredients": [
+      {
+        "group": "Reis",
+        "amount": "400 g",
+        "name": "Sushi-Reis"
+      },
+      {
+        "group": "Reis",
+        "amount": "Gleiches Volumen wie der Reis",
+        "name": "Kaltes Wasser"
+      },
+      {
+        "group": "Reis",
+        "amount": "2 EL",
+        "name": "Reisessig"
+      },
+      {
+        "group": "Belag",
+        "amount": "200 g",
+        "name": "Räucherlachs"
+      },
+      {
+        "group": "Belag",
+        "amount": "Ca. 30",
+        "name": "Garnelen (6 pro Person)"
+      },
+      {
+        "group": "Belag",
+        "amount": "2",
+        "name": "Gurken"
+      },
+      {
+        "group": "Belag",
+        "amount": "2",
+        "name": "Avocados"
+      },
+      {
+        "group": "Belag",
+        "amount": "Nach Bedarf",
+        "name": "Noriblätter"
+      },
+      {
+        "group": "Sauce & Abschluss",
+        "amount": "Ca. 4 EL",
+        "name": "Mayonnaise"
+      },
+      {
+        "group": "Sauce & Abschluss",
+        "amount": "Nach Geschmack",
+        "name": "Sriracha-Sauce"
+      },
+      {
+        "group": "Sauce & Abschluss",
+        "amount": "Nach Geschmack",
+        "name": "Sojasauce"
+      },
+      {
+        "group": "Sauce & Abschluss",
+        "amount": "Zum Bestreuen",
+        "name": "Sesam"
+      }
+    ],
+    "meta": [
+      "15 Min. Reis köcheln",
+      "10 Min. Reis ruhen lassen"
+    ],
+    "steps": [
+      {
+        "title": "Reis kochen",
+        "text": "Sushi-Reis gründlich waschen. Mit dem gleichen Volumen kaltem Wasser und dem Reisessig aufkochen. 15 Minuten köcheln lassen und anschließend 10 Minuten ruhen lassen."
+      },
+      {
+        "title": "Garnelen braten",
+        "text": "Garnelen in einer Pfanne anbraten und durchgaren."
+      },
+      {
+        "title": "Gemüse vorbereiten",
+        "text": "Gurken und Avocados klein schneiden. Noriblätter in Stücke schneiden."
+      },
+      {
+        "title": "Sauce anrühren",
+        "text": "Mayonnaise mit Sriracha-Sauce nach Geschmack vermengen."
+      },
+      {
+        "title": "Bowls anrichten",
+        "text": "Reis auf die Schalen verteilen und mit etwas Sojasauce abschmecken. Gurke, Avocado, Garnelen und Räucherlachs darauf anrichten. Nori darübergeben, mit der Sriracha-Mayonnaise beträufeln und mit Sesam bestreuen."
+      }
+    ],
+    "tip": "Die Schärfe der Sriracha-Mayonnaise lässt sich beim Anrühren nach Geschmack dosieren.",
+    "source": {
+      "label": "Eigenes Rezept aus einer E-Mail",
+      "note": "Aus der vom Nutzer ausgewählten Rezeptmail übertragen."
+    }
   }
 ];

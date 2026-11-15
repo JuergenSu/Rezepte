@@ -108,7 +108,7 @@ Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g B
 
 ## Inhaltsverzeichnis und Kapitel
 
-Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner** sowie die Sushi-Bowl mit Lachs und Garnelen. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
 
 Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
 
@@ -127,3 +127,7 @@ Aus dem vom Nutzer bereitgestellten Foto einer gedruckten Rezeptseite übertrage
 Tortilla-Teig und Rindfleisch-Tortillas wurden aus dem Nutzerfoto der gedruckten Seite 21 übertragen, jeweils für sechs Personen. Buch und Verfasser sind unbekannt. Der Teig ist laut Vorlage flüssig wie Crêpe-Teig, mit 10 g Salz und einer Stunde Kühlschrankruhe. Für die Kochplatte nennt der Ausschnitt keine Temperatur. Beim Rindfleisch wurden 25 cl Bouillon als 250 ml erläutert. Das optionale selbst gemachte Bohnenpüree ist als Alternative zum fertigen Püree getrennt. Die separat referenzierte Tomatensauce ist nicht abgebildet; dafür wurden weder Mengen noch eine Anleitung erfunden. Die nicht angeforderte Hühnchenvariante wurde nicht aufgenommen. Beide Illustrationen sind selbst erstellte SVG-Grafiken.
 
 Zusammengehörige Rezepte unterstützen `menu` (z. B. „Mexican Diner“) und `relatedRecipeIds` (Liste vorhandener Rezept-IDs). Der Menüname erscheint am Rezept, im Inhaltsverzeichnis und in Suchtreffern und wird mit durchsucht. Passende Rezepte werden direkt verlinkt, auch offline. Ungültige oder auf sich selbst zeigende Verweise werden nicht angezeigt.
+
+## Sushi-Bowl mit Lachs und Garnelen
+
+Auf ausdrückliche Auswahl des Nutzers aus einer eigenen E-Mail übernommen und unter `herzhaft` eingeordnet. Die Mengen gelten für fünf Personen. Die Wassermenge wurde als Volumenverhältnis zum Reis übernommen, ohne Gramm in Milliliter umzudeuten. Es wurden keine Gesamtzubereitungszeit oder unbekannten Mengen ergänzt. Die Illustration ist eine eigene lokale SVG-Grafik. Private Mailadressen, Nachrichten-IDs, Mail-Links und sonstige Korrespondenz werden nicht im Repository veröffentlicht. Weitere bei der Mailsuche gefundene Rezepte sind nicht Teil dieser Ergänzung.
