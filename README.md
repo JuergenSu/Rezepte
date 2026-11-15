@@ -108,7 +108,7 @@ Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g B
 
 ## Inhaltsverzeichnis und Kapitel
 
-Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner** sowie die Sushi-Bowl mit Lachs und Garnelen. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Die acht Gebäckrezepte stehen im Kapitel **Plätzchen**, der Schichtsalat mit Thunfischsoße im Kapitel **Salate**. Unter **Herzhaft** stehen Tortilla-Teig und Rindfleisch-Tortillas als **Mexican Diner** sowie die Sushi-Bowl mit Lachs und Garnelen und der Avocado-Bacon-Egg-Burger. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
 
 Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
 
@@ -131,3 +131,7 @@ Zusammengehörige Rezepte unterstützen `menu` (z. B. „Mexican Diner“) und `
 ## Sushi-Bowl mit Lachs und Garnelen
 
 Auf ausdrückliche Auswahl des Nutzers aus einer eigenen E-Mail übernommen und unter `herzhaft` eingeordnet. Die Mengen gelten für fünf Personen. Die Wassermenge wurde als Volumenverhältnis zum Reis übernommen, ohne Gramm in Milliliter umzudeuten. Es wurden keine Gesamtzubereitungszeit oder unbekannten Mengen ergänzt. Die Illustration ist eine eigene lokale SVG-Grafik. Private Mailadressen, Nachrichten-IDs, Mail-Links und sonstige Korrespondenz werden nicht im Repository veröffentlicht. Weitere bei der Mailsuche gefundene Rezepte sind nicht Teil dieser Ergänzung.
+
+## Avocado-Bacon-Egg-Burger
+
+Auf ausdrückliche Auswahl des Nutzers aus einer eigenen E-Mail übernommen und unter `herzhaft` eingeordnet. Mengen für drei Personen, mit separater Limetten-Aioli beziehungsweise optionaler Chipotle-Mayo. Die ungefähre Bratzeit aus der Vorlage bleibt als Richtwert erhalten; der Anleitungsschritt erläutert zusätzlich das vollständige Durchgaren des Hackfleischs. Zusätzlicher Limettensaft für die Avocado ist ohne erfundene Menge aufgeführt. Die Illustration ist eine eigene lokale SVG-Grafik. Private Maildaten und weitere nicht ausgewählte Rezepte werden nicht veröffentlicht.

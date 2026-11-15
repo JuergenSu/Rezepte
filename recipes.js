@@ -1161,5 +1161,128 @@ window.RECIPES = [
       "label": "Eigenes Rezept aus einer E-Mail",
       "note": "Aus der vom Nutzer ausgewählten Rezeptmail übertragen."
     }
+  },
+  {
+    "id": "avocado-bacon-egg-burger",
+    "title": "Avocado-Bacon-\nEgg-Burger",
+    "chapter": "herzhaft",
+    "category": "Herzhaft",
+    "description": "Burger mit Rindfleisch, knusprigem Bacon, Spiegelei und Avocado. Dazu eine cremige Limetten-Aioli, nach Wunsch mit Chipotle.",
+    "image": "assets/avocado-bacon-egg-burger.svg",
+    "imageAlt": "Eigene Illustration eines Burgers mit Rindfleisch, Käse, Bacon, Spiegelei und Avocadoscheiben",
+    "imageCaption": "Eigene Illustration · kein Foto des fertigen Gerichts",
+    "servings": "3 Personen",
+    "ingredientsNote": "Für drei Burger. Limettensaft für die Sauce abmessen und etwas zum Beträufeln der Avocado bereithalten.",
+    "ingredients": [
+      {
+        "group": "Burger",
+        "amount": "3",
+        "name": "Burger-Buns (Brioche oder Sesam)"
+      },
+      {
+        "group": "Burger",
+        "amount": "3 à ca. 150 g",
+        "name": "Rindfleisch-Patties"
+      },
+      {
+        "group": "Burger",
+        "amount": "3 Scheiben",
+        "name": "Cheddar oder Monterey Jack"
+      },
+      {
+        "group": "Burger",
+        "amount": "6 Scheiben",
+        "name": "Bacon"
+      },
+      {
+        "group": "Burger",
+        "amount": "3",
+        "name": "Eier"
+      },
+      {
+        "group": "Burger",
+        "amount": "1 große oder 1½ kleine",
+        "name": "Avocado"
+      },
+      {
+        "group": "Burger",
+        "amount": "3–4 Blätter",
+        "name": "Römersalat oder etwas Rucola"
+      },
+      {
+        "group": "Burger",
+        "amount": "1–2",
+        "name": "Tomaten, in Scheiben"
+      },
+      {
+        "group": "Burger",
+        "amount": "Nach Bedarf",
+        "name": "Salz, Pfeffer sowie Öl oder Butter zum Braten"
+      },
+      {
+        "group": "Limetten-Aioli / Chipotle-Mayo",
+        "amount": "4½ EL",
+        "name": "Mayonnaise"
+      },
+      {
+        "group": "Limetten-Aioli / Chipotle-Mayo",
+        "amount": "1½ TL, plus etwas für die Avocado",
+        "name": "Limettensaft"
+      },
+      {
+        "group": "Limetten-Aioli / Chipotle-Mayo",
+        "amount": "¾ TL oder 1 kleine Zehe",
+        "name": "Knoblauchpaste oder fein gehackter Knoblauch"
+      },
+      {
+        "group": "Limetten-Aioli / Chipotle-Mayo",
+        "amount": "¾ TL, optional",
+        "name": "Chipotle-Chili oder Paprikapulver"
+      },
+      {
+        "group": "Limetten-Aioli / Chipotle-Mayo",
+        "amount": "Nach Geschmack",
+        "name": "Salz und Pfeffer"
+      }
+    ],
+    "meta": [
+      "3 Burger",
+      "Patties: ca. 3–4 Min. je Seite"
+    ],
+    "steps": [
+      {
+        "title": "Sauce anrühren",
+        "text": "Mayonnaise, 1½ TL Limettensaft, Knoblauch und Gewürze verrühren und abschmecken. Chipotle-Chili oder Paprikapulver nach Wunsch zugeben."
+      },
+      {
+        "title": "Bacon knusprig braten",
+        "text": "Bacon in einer Pfanne ohne zusätzliches Fett bei mittlerer Hitze knusprig braten. Auf Küchenpapier abtropfen lassen."
+      },
+      {
+        "title": "Patties mit Käse braten",
+        "text": "Etwas Öl in einer Pfanne erhitzen und die Patties braten. Die Vorlage nennt etwa 3–4 Minuten je Seite; je nach Dicke weiterbraten, bis das Hackfleisch vollständig durchgegart ist. In der letzten Minute Käse auflegen und schmelzen lassen."
+      },
+      {
+        "title": "Spiegeleier braten",
+        "text": "Die Eier in derselben oder einer separaten Pfanne als Spiegeleier braten und mit Salz und Pfeffer würzen."
+      },
+      {
+        "title": "Avocado & Gemüse vorbereiten",
+        "text": "Avocado halbieren, entkernen und in Scheiben schneiden. Mit etwas zusätzlichem Limettensaft beträufeln. Salat und Tomatenscheiben bereitlegen."
+      },
+      {
+        "title": "Buns rösten",
+        "text": "Burger-Buns halbieren und die Schnittflächen kurz in der Pfanne oder im Ofen rösten."
+      },
+      {
+        "title": "Burger schichten",
+        "text": "Die unteren Bun-Hälften mit Sauce bestreichen. Salat, Patty mit Käse, Bacon, Spiegelei, Avocado und Tomate darauf schichten. Die oberen Bun-Hälften ebenfalls mit Sauce bestreichen und aufsetzen."
+      }
+    ],
+    "tip": "Für eine milde Sauce die optionale Chipotle-Chili weglassen oder Paprikapulver verwenden.",
+    "source": {
+      "label": "Eigenes Rezept aus einer E-Mail",
+      "note": "Aus der vom Nutzer ausgewählten Rezeptmail übertragen."
+    }
   }
 ];
