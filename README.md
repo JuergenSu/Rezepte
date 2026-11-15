@@ -143,3 +143,15 @@ Quelle: [Gilla auf Chefkoch · Blaubeer-Eistorte mit Knusperboden](https://www.c
 ## Passionsfrucht-Käsetorte · Kuchen
 
 Aus der im Chat bereitgestellten Rezeptvorlage übernommen: 16 Stücke, Springformen mit 26 cm Durchmesser, ca. 50 Minuten Zubereitung plus Abkühl- und Kühlzeit. Die beiden Teighälften werden nacheinander jeweils ca. 25 Minuten gebacken; die geschichtete Torte wird ca. 3 Stunden gekühlt. Die Zutaten sind nach Arbeitsschritten aufgeteilt: insgesamt 425 g Zucker (225 + 100 + 100 g) und 8 Eier (4 + 4). Ungebundener Fruchtmix für die Creme und mit Stärke gebundene Soße sind in der Anleitung ausdrücklich getrennt. Nährwerte laut Nutzervorlage pro Stück übernommen, nicht nachgerechnet. Kein externer Quellenlink oder Verfasser bekannt; Illustration selbst erstellt.
+
+## Auswahl aus „filofex rezepte.pdf“
+
+Nur die fünf ausdrücklich ausgewählten Rezepte sind übernommen: Cake Pops (PDF-Seite 4), Börek (6), Blechkuchen (3), Tassenkuchen mit beiden Varianten (5) und Omas Apfelpfannkuchen (8). Cake Pops, Blech- und Tassenkuchen gehören zu „Kuchen“, Börek zu „Herzhaft“, Apfelpfannkuchen zum neuen Kapitel „Süßspeisen“. Das eingebettete Rezeptbild auf Seite 8 wurde visuell gelesen. Die vollständige PDF wird nicht veröffentlicht, da sie auch nicht angeforderte persönliche Inhalte enthält.
+
+- Cake Pops: Nur Zutaten und ca. 15 Stück überliefert. Keine Zubereitung, kein Gerät, keine Temperatur und keine Garzeit ergänzt. Als unvollständige Notiz gekennzeichnet.
+- Blechkuchen: 190 °C, 30 Minuten ohne Vorheizen aus der Vorlage. Heizart und Blechgröße fehlen. Rührfolge und Verteilen auf dem Blech sind als redaktionelle Ergänzung markiert. Kein Backpulver ergänzt.
+- Tassenkuchen: Zwei alternative Zutatenlisten, nicht zusammenmischen. 2 Minuten bei 800 Watt und Hinweis auf heiße Steinguttassen übernommen; Verrühren und mikrowellengeeignetes Gefäß als praktische Ergänzung gekennzeichnet.
+- Börek: Sesam aus der Anleitung ohne erfundene Menge ergänzt; offensichtliche Schreibfehler bereinigt. Die fälschlich „Pizzateig“ betitelte Dublette auf Seite 7 ist nicht übernommen.
+- Apfelpfannkuchen: 2 Portionen, ca. 15 Minuten Arbeitszeit und alle Mengen aus dem sichtbaren Rezeptbild übernommen.
+
+Jeder Eintrag trägt PDF-Dateiname und Seitennummer als Herkunft. Alle fünf SVG-Illustrationen sind selbst erstellt und keine kopierten Bilder aus der PDF.

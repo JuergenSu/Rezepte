@@ -19,6 +19,11 @@ window.CHAPTERS = [
     "id": "kuchen",
     "title": "Kuchen",
     "description": "Kuchen und Torten zum Teilen – aus dem Ofen oder aus dem Gefrierfach."
+  },
+  {
+    "id": "suessspeisen",
+    "title": "Süßspeisen",
+    "description": "Süße Lieblingsgerichte aus der Pfanne und für zwischendurch."
   }
 ];
 window.RECIPES = [
@@ -1515,6 +1520,364 @@ window.RECIPES = [
     "source": {
       "label": "Vom Nutzer bereitgestellte Rezeptvorlage · Passionsfrucht-Käsetorte",
       "note": "Ohne genannten Verfasser oder externen Link. Nährwerte aus der Vorlage übernommen, nicht neu berechnet."
+    }
+  },
+  {
+    "id": "cake-pops",
+    "title": "Cake Pops",
+    "chapter": "kuchen",
+    "category": "Kuchen",
+    "description": "Grundmengen für kleine Kuchen am Stiel. Die Vorlage enthält keine Zubereitungs- oder Backanleitung.",
+    "image": "assets/cake-pops.svg",
+    "imageAlt": "Eigene Illustration: Cake Pops",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "Ca. 15 Stück",
+    "ingredientsNote": "Unvollständige Rezeptnotiz: Backangaben fehlen.",
+    "ingredients": [
+      {
+        "amount": "90 g",
+        "name": "Mehl"
+      },
+      {
+        "amount": "30 g",
+        "name": "Zucker"
+      },
+      {
+        "amount": "30 g",
+        "name": "Butter"
+      },
+      {
+        "amount": "1",
+        "name": "Ei"
+      },
+      {
+        "amount": "1 TL",
+        "name": "Backpulver"
+      },
+      {
+        "amount": "2 EL",
+        "name": "Joghurt"
+      }
+    ],
+    "meta": [],
+    "steps": [
+      {
+        "title": "Zubereitungsangaben fehlen",
+        "text": "Die PDF nennt nur diese Zutaten und eine Ausbeute von etwa 15 Cake Pops. Backgerät, Teigverarbeitung, Temperatur und Garzeit sind nicht angegeben. Vor dem Zubereiten müssen diese Angaben ergänzt werden; es wurde keine Backanleitung erfunden."
+      }
+    ],
+    "tip": "Das Bild in der Vorlage zeigt dekorierte Cake Pops, nennt aber keine Mengen für Glasur, Streusel oder Stiele. Diese wurden nicht als Rezeptzutaten ergänzt.",
+    "source": {
+      "label": "filofex rezepte.pdf · Seite 4",
+      "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
+    }
+  },
+  {
+    "id": "boerek-spinat-feta",
+    "title": "Börek mit Spinat & Feta",
+    "chapter": "herzhaft",
+    "category": "Herzhaft",
+    "description": "Geschichteter Yufka-Teig mit Blattspinat und Schafskäse, warm oder kalt serviert.",
+    "image": "assets/boerek-spinat-feta.svg",
+    "imageAlt": "Eigene Illustration: Börek mit Spinat & Feta",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "4 Portionen",
+    "ingredientsNote": "Sesam steht nur in der Anleitung der Vorlage, ohne Mengenangabe.",
+    "ingredients": [
+      {
+        "amount": "2",
+        "name": "Zwiebeln"
+      },
+      {
+        "amount": "2",
+        "name": "Knoblauchzehen"
+      },
+      {
+        "amount": "2 EL",
+        "name": "Olivenöl"
+      },
+      {
+        "amount": "450 g",
+        "name": "TK-Blattspinat"
+      },
+      {
+        "amount": "Nach Bedarf",
+        "name": "Öl zum Einfetten"
+      },
+      {
+        "amount": "4 EL",
+        "name": "Milch"
+      },
+      {
+        "amount": "70 g",
+        "name": "Butter"
+      },
+      {
+        "amount": "300 g",
+        "name": "Schafskäse (Feta)"
+      },
+      {
+        "amount": "Nach Geschmack",
+        "name": "Salz, Pfeffer und frisch geriebene Muskatnuss"
+      },
+      {
+        "amount": "1 Packung (ca. 400 g)",
+        "name": "Yufka-Teig, 5 runde Blätter"
+      },
+      {
+        "amount": "Zum Bestreuen",
+        "name": "Sesam (Menge nicht genannt)"
+      }
+    ],
+    "meta": [
+      "200 °C / 180 °C Umluft",
+      "Ca. 30 Min. Backzeit",
+      "Form ca. 30 × 24 cm"
+    ],
+    "steps": [
+      {
+        "title": "Spinatfüllung dünsten",
+        "text": "Zwiebeln und Knoblauch schälen. Zwiebeln grob würfeln, Knoblauch in Scheiben schneiden. In Olivenöl zugedeckt 5 Minuten dünsten. Den gefrorenen Spinat zugeben und bei kleiner Hitze zugedeckt weitere 10 Minuten dünsten. Die Flüssigkeit im offenen Topf verdampfen lassen und die Füllung abkühlen lassen."
+      },
+      {
+        "title": "Form & Zutaten vorbereiten",
+        "text": "Ofen auf 200 °C, alternativ 180 °C Umluft, vorheizen. Eine flache Auflaufform von etwa 30 × 24 cm einfetten. Milch mit Butter erhitzen. Feta zerbröckeln, Spinat mit Salz, Pfeffer und Muskat würzen. Spinat und Feta jeweils in vier Portionen teilen."
+      },
+      {
+        "title": "Börek schichten",
+        "text": "Das erste Yufkablatt mit etwas Butter-Milch-Mischung bestreichen und so in die Form legen, dass die Ränder überstehen. Die übrigen vier Blätter in große Stücke reißen. Abwechselnd drei bis vier Teigstücke, eine Portion Spinat und eine Portion Feta schichten; die Teigstücke dabei mit der Butter-Milch-Mischung bestreichen."
+      },
+      {
+        "title": "Abschließen & backen",
+        "text": "Mit Teig abschließen, die überstehenden Ränder nach innen klappen und mit der übrigen Butter-Milch-Mischung bestreichen oder beträufeln. Mit Sesam bestreuen. Etwa 30 Minuten goldbraun backen und heiß oder kalt servieren."
+      }
+    ],
+    "tip": "Die ähnlich betitelte Seite „Pizzateig“ enthält in der PDF nochmals den Börektext; übernommen wurde ausschließlich die Börekseite.",
+    "source": {
+      "label": "filofex rezepte.pdf · Seite 6",
+      "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
+    }
+  },
+  {
+    "id": "blechkuchen-filofex",
+    "title": "Blechkuchen",
+    "chapter": "kuchen",
+    "category": "Kuchen",
+    "description": "Ein einfacher Kuchen aus Butter, Mehl, Zucker und Eiern. Eine kurze Familiennotiz aus der PDF.",
+    "image": "assets/blechkuchen-filofex.svg",
+    "imageAlt": "Eigene Illustration: Blechkuchen",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "1 Rezeptmenge",
+    "ingredientsNote": "Keine Blechgröße oder Stückzahl angegeben.",
+    "ingredients": [
+      {
+        "amount": "250 g",
+        "name": "Butter"
+      },
+      {
+        "amount": "250 g",
+        "name": "Mehl"
+      },
+      {
+        "amount": "250 g",
+        "name": "Zucker"
+      },
+      {
+        "amount": "4",
+        "name": "Eier"
+      }
+    ],
+    "meta": [
+      "190 °C · Heizart nicht angegeben",
+      "30 Min. Backzeit",
+      "Ohne Vorheizen"
+    ],
+    "steps": [
+      {
+        "title": "Teig vorbereiten – redaktionell ergänzt",
+        "text": "Die Vorlage enthält keinen Rührschritt. Als praktische Ergänzung: Butter und Zucker cremig rühren, Eier einzeln einrühren und Mehl kurz untermischen. Den Teig auf einem vorbereiteten Blech verteilen. Eine Blechgröße nennt die Quelle nicht."
+      },
+      {
+        "title": "Ohne Vorheizen backen",
+        "text": "Laut Vorlage ohne Vorheizen etwa 30 Minuten bei 190 °C backen. Die Heizart ist nicht angegeben; Ober-/Unterhitze oder Umluft wurden daher nicht festgelegt."
+      }
+    ],
+    "tip": "Rührfolge und Verteilen des Teigs sind als redaktionelle Ergänzung gekennzeichnet. Ein Backtriebmittel nennt die Vorlage nicht.",
+    "source": {
+      "label": "filofex rezepte.pdf · Seite 3",
+      "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
+    }
+  },
+  {
+    "id": "tassenkuchen-zwei-varianten",
+    "title": "Tassenkuchen · zwei Varianten",
+    "chapter": "kuchen",
+    "category": "Kuchen",
+    "description": "Ein schneller Mikrowellenkuchen, wahlweise mit Nutella oder Schoko-Kokos-Creme und Mandeldrink.",
+    "image": "assets/tassenkuchen-zwei-varianten.svg",
+    "imageAlt": "Eigene Illustration: Tassenkuchen · zwei Varianten",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "Je Variante 1 Rezeptmenge",
+    "ingredientsNote": "Die Zutatenlisten sind zwei getrennte Varianten.",
+    "ingredients": [
+      {
+        "amount": "2 TL",
+        "name": "Nutella",
+        "group": "Nutella-Variante"
+      },
+      {
+        "amount": "3 EL",
+        "name": "Mehl",
+        "group": "Nutella-Variante"
+      },
+      {
+        "amount": "1 TL",
+        "name": "Backpulver",
+        "group": "Nutella-Variante"
+      },
+      {
+        "amount": "3 EL",
+        "name": "Milch",
+        "group": "Nutella-Variante"
+      },
+      {
+        "amount": "1 TL",
+        "name": "Öl",
+        "group": "Nutella-Variante"
+      },
+      {
+        "amount": "2 TL",
+        "name": "Veganz Schoko-Kokos-Creme",
+        "group": "Schoko-Kokos-Variante"
+      },
+      {
+        "amount": "2 EL",
+        "name": "Kokosblütenzucker",
+        "group": "Schoko-Kokos-Variante"
+      },
+      {
+        "amount": "3 EL",
+        "name": "Mehl",
+        "group": "Schoko-Kokos-Variante"
+      },
+      {
+        "amount": "1 TL",
+        "name": "Backpulver",
+        "group": "Schoko-Kokos-Variante"
+      },
+      {
+        "amount": "3 EL",
+        "name": "Mandeldrink",
+        "group": "Schoko-Kokos-Variante"
+      },
+      {
+        "amount": "1 TL",
+        "name": "Öl",
+        "group": "Schoko-Kokos-Variante"
+      }
+    ],
+    "meta": [
+      "2 Min. bei 800 Watt",
+      "Mikrowelle"
+    ],
+    "steps": [
+      {
+        "title": "Eine Variante auswählen",
+        "text": "Nur die Zutaten einer der beiden Varianten verwenden; die beiden Listen sind Alternativen, kein gemeinsamer Teig."
+      },
+      {
+        "title": "In der Tasse verrühren – redaktionell ergänzt",
+        "text": "Die gewählten Zutaten in einer mikrowellengeeigneten Tasse glatt verrühren. Dieser Rührschritt und der Hinweis auf ein geeignetes Gefäß wurden redaktionell ergänzt; die PDF nennt nur Zutaten und Mikrowellenangaben."
+      },
+      {
+        "title": "In der Mikrowelle garen",
+        "text": "Laut Vorlage 2 Minuten bei 800 Watt erhitzen. Vorsichtig herausnehmen: Die PDF weist ausdrücklich darauf hin, dass Steinguttassen sehr warm werden."
+      }
+    ],
+    "tip": "Die Vorlage nennt keine Tassengröße. Der Rührschritt ist als Ergänzung gekennzeichnet; die Garangabe wurde unverändert übernommen.",
+    "source": {
+      "label": "filofex rezepte.pdf · Seite 5",
+      "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
+    }
+  },
+  {
+    "id": "omas-apfelpfannkuchen",
+    "title": "Omas Apfelpfannkuchen",
+    "chapter": "suessspeisen",
+    "category": "Süßspeisen",
+    "description": "Luftige Apfelpfannkuchen mit untergehobenem Eischnee und Zimt-Zucker.",
+    "image": "assets/omas-apfelpfannkuchen.svg",
+    "imageAlt": "Eigene Illustration: Omas Apfelpfannkuchen",
+    "imageCaption": "Eigene Illustration · kein Originalfoto",
+    "servings": "2 Portionen",
+    "ingredientsNote": "Die Zutaten des eingebetteten Rezeptbilds wurden visuell geprüft.",
+    "ingredients": [
+      {
+        "amount": "2",
+        "name": "Eier, getrennt"
+      },
+      {
+        "amount": "1 Prise",
+        "name": "Salz"
+      },
+      {
+        "amount": "1 Prise",
+        "name": "Zucker"
+      },
+      {
+        "amount": "125 g",
+        "name": "Mehl"
+      },
+      {
+        "amount": "½ TL",
+        "name": "Backpulver"
+      },
+      {
+        "amount": "125 ml",
+        "name": "Milch"
+      },
+      {
+        "amount": "125 ml",
+        "name": "Mineralwasser"
+      },
+      {
+        "amount": "1",
+        "name": "Apfel"
+      },
+      {
+        "amount": "2 TL",
+        "name": "Zimt-Zucker"
+      },
+      {
+        "amount": "Nach Bedarf",
+        "name": "Öl zum Ausbacken"
+      }
+    ],
+    "meta": [
+      "Ca. 15 Min. Arbeitszeit"
+    ],
+    "steps": [
+      {
+        "title": "Apfel schneiden",
+        "text": "Apfel schälen, das Kernhaus entfernen und das Fruchtfleisch in kleine Stücke oder dünne Scheiben schneiden."
+      },
+      {
+        "title": "Teig verrühren",
+        "text": "Eigelbe mit Salz, Zucker, Mehl, Backpulver, Milch und Mineralwasser mit einem Stabmixer verrühren. Dabei auf Spritzer achten. Eiweiß steif schlagen und unterheben, anschließend die Apfelstücke vorsichtig unterheben."
+      },
+      {
+        "title": "Pfannkuchen ausbacken",
+        "text": "Öl in einer Pfanne erhitzen und den Teig portionsweise zu Pfannkuchen backen, bis beide Seiten eine schöne Farbe haben."
+      },
+      {
+        "title": "Direkt servieren",
+        "text": "Mit Zimt-Zucker bestreuen und möglichst sofort servieren."
+      }
+    ],
+    "tip": "In der Vorlage werden die Pfannkuchen auch als Beilage zu Linsensuppe oder Gemüseeintopf erwähnt.",
+    "source": {
+      "label": "filofex rezepte.pdf · Seite 8",
+      "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
     }
   }
 ];

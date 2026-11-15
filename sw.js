@@ -1,13 +1,13 @@
 /* Bei jeder Änderung an Rezepten, Bildern oder App-Dateien VERSION erhöhen.
    Neue Rezeptbilder außerdem in FILES aufnehmen, damit sie sofort offline sind. */
 'use strict';
-const VERSION = 'v18';
+const VERSION = 'v19';
 // Der Scope schützt andere GitHub-Pages-Projekte auf demselben Host.
 const PREFIX = `kochbuch:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 const FILES = [
   './', './index.html', './styles.css', './app.js', './pwa.js', './recipes.js',
-  './manifest.webmanifest', './assets/kitchen.svg', './assets/kokosmakronen.svg', './assets/aperol-plaetzchen.svg', './assets/zitronenkekse.svg', './assets/vanillekipferl.svg', './assets/kaffeetaler.svg', './assets/lebkuchen.svg', './assets/zimtsterne.svg', './assets/schokoladenschnitten.svg', './assets/schichtsalat.svg', './assets/tortilla-teig.svg', './assets/rindfleisch-tortillas.svg', './assets/sushi-bowl.svg', './assets/avocado-bacon-egg-burger.svg', './assets/blaubeer-eistorte.svg', './assets/passionsfrucht-kaesetorte.svg', './assets/icon-192.png',
+  './manifest.webmanifest', './assets/kitchen.svg', './assets/kokosmakronen.svg', './assets/aperol-plaetzchen.svg', './assets/zitronenkekse.svg', './assets/vanillekipferl.svg', './assets/kaffeetaler.svg', './assets/lebkuchen.svg', './assets/zimtsterne.svg', './assets/schokoladenschnitten.svg', './assets/schichtsalat.svg', './assets/tortilla-teig.svg', './assets/rindfleisch-tortillas.svg', './assets/sushi-bowl.svg', './assets/avocado-bacon-egg-burger.svg', './assets/blaubeer-eistorte.svg', './assets/passionsfrucht-kaesetorte.svg', './assets/cake-pops.svg', './assets/boerek-spinat-feta.svg', './assets/blechkuchen-filofex.svg', './assets/tassenkuchen-zwei-varianten.svg', './assets/omas-apfelpfannkuchen.svg', './assets/icon-192.png',
   './assets/icon-512.png', './assets/icon-maskable-512.png', './assets/apple-touch-icon.png'
 ];
 self.addEventListener('install', event => {
