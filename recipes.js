@@ -1890,11 +1890,11 @@ window.RECIPES = [
     "imageAlt": "Eigene schematische Illustration von goldbraunem, mit Zucker bestreutem Hefeteiggebäck",
     "imageCaption": "Eigene Illustration · die genaue Gebäckform ist nicht überliefert",
     "servings": "1 Rezeptmenge",
-    "ingredientsNote": "Unvollständige Mengenangaben: Bei „100 Zucker“ fehlt die Einheit. Die Hefeart, mehrere weitere Mengen und die Ausbacktemperatur sind nicht angegeben.",
+    "ingredientsNote": "Mehl und Zucker vom Nutzer bestätigt: 500 g Mehl und 100 g Zucker. Die Hefeart, mehrere weitere Mengen und die Ausbacktemperatur sind nicht angegeben.",
     "ingredients": [
       {
         "group": "Hefeteig",
-        "amount": "1 kg",
+        "amount": "500 g",
         "name": "Mehl"
       },
       {
@@ -1909,7 +1909,7 @@ window.RECIPES = [
       },
       {
         "group": "Hefeteig",
-        "amount": "100 (Einheit fehlt)",
+        "amount": "100 g",
         "name": "Zucker"
       },
       {
@@ -1955,7 +1955,7 @@ window.RECIPES = [
     "steps": [
       {
         "title": "Hefeteig herstellen",
-        "text": "Aus den genannten Teigzutaten einen Hefeteig herstellen. Die Vorlage beschreibt keine genaue Rührfolge und nennt mehrere Mengen nicht. Vor der Zubereitung insbesondere die fehlende Einheit bei „100 Zucker“ und die Hefeart klären."
+        "text": "Aus den genannten Teigzutaten einen Hefeteig herstellen. Die Vorlage beschreibt keine genaue Rührfolge und nennt mehrere Mengen nicht. Die Mengen für Mehl und Zucker sind bestätigt; die Hefeart ist noch nicht angegeben."
       },
       {
         "title": "Aufgehen lassen",
