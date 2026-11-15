@@ -1,7 +1,7 @@
 /* Bei jeder Änderung an Rezepten, Bildern oder App-Dateien VERSION erhöhen.
    Neue Rezeptbilder außerdem in FILES aufnehmen, damit sie sofort offline sind. */
 'use strict';
-const VERSION = 'v11';
+const VERSION = 'v12';
 // Der Scope schützt andere GitHub-Pages-Projekte auf demselben Host.
 const PREFIX = `kochbuch:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;

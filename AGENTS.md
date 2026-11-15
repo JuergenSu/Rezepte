@@ -14,7 +14,7 @@ Das Kochbuch ist eine persönliche, installierbare und offline nutzbare Rezeptsa
 
 ## 2. Gemeinsamer Aufbau statt einzelner Rezept-HTML-Dateien
 
-Rezepte sind Datensätze in `window.RECIPES` in `recipes.js`. `app.js` rendert sie in dieselbe Vorlage aus `index.html`; `styles.css` definiert das gemeinsame Design. Ein neues Rezept erhält grundsätzlich keine eigene HTML-Datei und kein eigenes Layout.
+Die Startseite ist ein dynamisches Inhaltsverzeichnis, kein Rezept. Kapitel werden in `window.CHAPTERS` und Rezepte in `window.RECIPES` in `recipes.js` gepflegt. `app.js` rendert sie in dieselbe Vorlage aus `index.html`; `styles.css` definiert das gemeinsame Design. Ein neues Rezept erhält grundsätzlich keine eigene HTML-Datei und kein eigenes Layout.
 
 | Datei | Verantwortung |
 | --- | --- |
@@ -53,7 +53,8 @@ Das folgende Beispiel beschreibt die Struktur; es ist kein vollständiges Kochre
 {
   id: 'eindeutiger-rezeptname',
   title: 'Rezepttitel',
-  category: 'Plätzchen · nach Quellenname',
+  chapter: 'plaetzchen',
+  category: 'Plätzchen',
   description: 'Kurze Einordnung des Gerichts.',
   image: 'assets/rezeptname.svg',
   imageAlt: 'Konkrete Beschreibung des Bildinhalts',
@@ -75,12 +76,12 @@ Das folgende Beispiel beschreibt die Struktur; es ist kein vollständiges Kochre
 }
 ```
 
-- Pflicht für neue echte Rezepte: `id`, `title`, `category`, `description`, `image`, `imageAlt`, `servings`, nicht leere `ingredients` und `steps` sowie `meta` mit den tatsächlich bekannten Angaben.
+- Pflicht für neue echte Rezepte: `id`, `title`, `chapter`, `category`, `description`, `image`, `imageAlt`, `servings`, nicht leere `ingredients` und `steps` sowie `meta` mit den tatsächlich bekannten Angaben.
 - `imageCaption`, `ingredientsNote` und `tip` sind optional. `meta` darf leer sein, wenn keine verlässlichen Angaben vorliegen. Unbekannte Mengen oder Zeiten nicht schätzen, ohne sie als Schätzung zu kennzeichnen.
 - `ingredients[].group` ist optional. Jeder Zutateneintrag enthält `amount` und `name`; jeder Schritt `title` und `text`.
 - `source` ist bei externen Vorlagen erforderlich. Bei eigenen Rezepten ist es optional. Nur geprüfte HTTPS-URLs als Link angeben. Bei Screenshots ohne bekannten Beitragslink `source: { label: 'Herkunft', note: 'Hinweis zur Vorlage' }` verwenden. Keine vermutete URL einsetzen.
 - Stückzahl, Temperatur, Heizart, Backzeit, Arbeitszeit und Kühlzeit auseinanderhalten. Keine erfundene Gesamtdauer aus Zeiten bilden, die sich möglicherweise überlappen.
-- Neue Rezepte am Ende der Sammlung ergänzen; die Willkommensseite bleibt am Anfang. Keine Musterrezepte oder Platzhalterseiten ohne ausdrücklichen Auftrag hinzufügen. Veraltete Hinweise auf noch fehlende Rezepte bei Bedarf aktualisieren.
+- Neue Rezepte am Ende der Sammlung ergänzen; die Startseite bleibt das Inhaltsverzeichnis. Keine Musterrezepte oder Platzhalterseiten ohne ausdrücklichen Auftrag hinzufügen. Veraltete Hinweise auf noch fehlende Rezepte bei Bedarf aktualisieren.
 - Ein neues Datenfeld erfordert die passende gemeinsame Darstellung und Dokumentation; es darf nicht nur in einem Datensatz auftauchen und sonst wirkungslos bleiben.
 
 ## 5. Verbindliches Design
@@ -168,3 +169,15 @@ Vor Abschluss die betroffenen Funktionen prüfen. Reine Dokumentationsarbeit ben
 - Keine unbehandelten JavaScript-Fehler, kaputten Ressourcen oder verlorenen Lesezeichen hinterlassen.
 
 Abschließend knapp berichten, was geändert wurde, wo es liegt und was tatsächlich geprüft wurde. Lokale Umsetzung, Commit im Repository und öffentlich erreichbare Veröffentlichung klar unterscheiden. Eine nicht ausgeführte Prüfung oder ein nicht erfolgtes Deployment nicht als erfolgreich darstellen.
+
+## 10. Inhaltsverzeichnis und Kapitel
+
+- Die Startseite (ohne Hash, `#inhaltsverzeichnis`, aus Kompatibilität auch `#willkommen`) zeigt ein Inhaltsverzeichnis im Buchdesign. Sie ist kein Datensatz in `RECIPES`, erscheint nicht in der Rezeptsuche und bietet kein Rezept-Lesezeichen. Drucken gibt dort das Inhaltsverzeichnis aus.
+- `window.CHAPTERS` enthält `{ id, title, description }`. Die Reihenfolge bestimmt die Kapitelreihenfolge; innerhalb eines Kapitels gilt die Reihenfolge in `RECIPES`. Leere Kapitel werden nicht angezeigt. Der Renderer gruppiert auch dann korrekt, wenn Datensätze verschiedener Kapitel in der Datei gemischt stehen.
+- Jedes Rezept erhält `chapter` mit einer vorhandenen Kapitel-ID und `category` mit dem lesbaren Kategorienamen. Alle zum Zeitpunkt dieser Einführung vorhandenen Rezepte gehören zu `plaetzchen` / „Plätzchen“. Quellen gehören in `source`, nicht in die Kapitel-ID.
+- Neue Kategorien als weitere Kapitel ergänzen; keine individuellen Inhaltsverzeichnis-Einträge oder Seitenzahlen von Hand pflegen. `#kapitel/<id>` führt zum entsprechenden Abschnitt. Rezept-IDs und vorhandene Direktlinks bleiben unverändert.
+- Inhaltsverzeichnis, Suche und Buchnavigation verwenden dieselbe Kapitelreihenfolge. Die Suche bietet einen Kapitel-Filter, kombinierbar mit Suchtext und Lesezeichenfilter.
+- Das Inhaltsverzeichnis belegt die Seiten 01/02, das erste Rezept beginnt auf 03/04. Die Seitenangaben im Inhaltsverzeichnis werden automatisch berechnet und sind Buchseiten, keine garantierten Papierseiten der Druckausgabe.
+- Von jedem Rezept führt „Inhalt“ oder der Buchtitel zurück zum Inhaltsverzeichnis. Beim ersten Rezept führt Zurück dorthin; von dort führt Weiter zum ersten Rezept. Leere Sammlungen zeigen eine verständliche Meldung, keinen Fehler.
+- Auf dem Handy keine Zutaten-/Zubereitung-Sprungtasten auf der Inhaltsseite zeigen. Kapitel- und Rezeptlinks müssen per Tastatur, Touch und offline funktionieren. Verborgene Rezeptinhalte dürfen nicht im Inhaltsverzeichnis mitgedruckt werden und umgekehrt.
+- Bei Änderungen prüfen: Start ohne Hash, alter Willkommen-Link, Kapitel-Link, bestehender Rezept-Direktlink, Browserhistorie, Wechsel erstes/letztes Rezept, mehrere Kapitel und leere Sammlung. Bestehende Rezept-Lesezeichen bleiben erhalten.

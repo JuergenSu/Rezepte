@@ -20,14 +20,15 @@ Für GitHub Pages unter **Settings → Pages → Build and deployment → Deploy
 
 ## Rezepte ergänzen
 
-Enthalten sind eine Willkommensseite, Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl, Kaffeetaler, Nürnberger Lebkuchen und Zimtsterne nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de sowie Schokoladenschnitten aus einer handschriftlichen Vorlage.
+Die Startseite zeigt das Inhaltsverzeichnis. Enthalten sind Kokosmakronen, Zitronenkekse mit Lemon Curd, Vanillekipferl, Kaffeetaler, Nürnberger Lebkuchen und Zimtsterne nach Sallys Welt sowie Aperol-Spritz-Plätzchen nach den bereitgestellten Screenshots von foodwerk.de sowie Schokoladenschnitten aus einer handschriftlichen Vorlage.
 
-Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Die Reihenfolge bestimmt die Reihenfolge im Buch. Beispiel:
+Ein weiteres Objekt in `window.RECIPES` in `recipes.js` ergänzen. Kapitel in `window.CHAPTERS` bestimmen die Reihenfolge der Kapitel, innerhalb der Kapitel gilt die Reihenfolge der Rezeptdatensätze. Für das folgende Beispiel zuerst das Kapitel `suppen` ergänzen. Beispiel:
 
 ```js
 {
   id: 'kartoffelsuppe', // eindeutig, dauerhaft; keine Leerzeichen
   title: 'Kartoffelsuppe',
+  chapter: 'suppen',
   category: 'Suppen',
   description: 'Ein Lieblingsgericht für kalte Tage.',
   image: 'assets/kartoffelsuppe.jpg',
@@ -104,3 +105,15 @@ Quellen: [Sallys Welt · Nürnberger Lebkuchen – klassisch](https://sallys-blo
 ## Schokoladenschnitten aus handschriftlicher Vorlage
 
 Aus dem vom Nutzer bereitgestellten Foto übertragen: Grundmenge jeweils 125 g Blockschokolade, Zucker und Palmin, 1 Päckchen Vanillinzucker, 3 Eigelb, 1 Ei und 6 Oblaten (ca. 12 × 20 cm). Die blassen Bleistiftmengen wurden als Verdreifachung gelesen und nicht übernommen. Die Vorlage nennt etwa 5 Minuten Kochzeit, weist auf Anbrenngefahr hin und sieht Rautenschnitte nach dem Erkalten vor. Die genaue Schichtaufteilung ist nicht beschrieben; diese Unklarheit ist im Rezept vermerkt. Die Illustration ist eine eigene schematische Darstellung, kein Foto des fertigen Gerichts.
+
+## Inhaltsverzeichnis und Kapitel
+
+Die Startseite ist das Inhaltsverzeichnis mit direkt verlinkten Rezepten und automatisch berechneten Buchseiten. Alle derzeit vorhandenen acht Rezepte stehen im Kapitel **Plätzchen**. Über „Inhalt“ oder den Buchtitel gelangt man jederzeit zurück; die Rezeptsuche enthält zusätzlich einen Kapitel-Filter. Kapitel-Filter, Textsuche und Lesezeichen lassen sich kombinieren.
+
+Neue Kapitel am Anfang von `recipes.js` in `window.CHAPTERS` ergänzen, zum Beispiel:
+
+```js
+{ id: 'suppen', title: 'Suppen', description: 'Wärmende Lieblingsgerichte für den Suppenteller.' }
+```
+
+Neue Rezepte erhalten dazu `chapter: 'suppen'` und `category: 'Suppen'`. Inhaltsverzeichnis, Suchfilter und Buchreihenfolge passen sich automatisch an. Leere Kapitel bleiben unsichtbar. Rezept-IDs und gespeicherte Lesezeichen bleiben unverändert. `#kapitel/plaetzchen` öffnet das Kapitel, `#inhaltsverzeichnis` die Startseite; der frühere Link `#willkommen` führt ebenfalls zum Inhaltsverzeichnis.

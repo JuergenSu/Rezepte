@@ -19,13 +19,30 @@
 </head>
 <body>
   <header class="masthead">
-    <a class="brand" href="#" aria-label="Zur ersten Buchseite"><span class="brand-mark" aria-hidden="true">❧</span><span>Unser Kochbuch<small>Gutes Essen. Gute Erinnerungen.</small></span></a>
+    <a class="brand" href="#" aria-label="Zum Inhaltsverzeichnis"><span class="brand-mark" aria-hidden="true">❧</span><span>Unser Kochbuch<small>Gutes Essen. Gute Erinnerungen.</small></span></a>
     <button id="open-index" class="index-button" aria-haspopup="dialog"><span aria-hidden="true">☷</span> Rezepte entdecken <span id="recipe-count" class="count"></span></button>
   </header>
-  <nav class="mobile-sections" aria-label="Abschnitte des Rezepts"><button data-section="recipe-title">Überblick</button><button data-section="ingredients-title">Zutaten</button><button data-section="instructions-title">Zubereitung</button></nav>
+  <nav id="mobile-sections" class="mobile-sections" aria-label="Abschnitte des Rezepts"><button data-section="recipe-title">Überblick</button><button data-section="ingredients-title">Zutaten</button><button data-section="instructions-title">Zubereitung</button></nav>
   <main>
-    <div class="book-heading"><span>DIE PERSÖNLICHE REZEPTSAMMLUNG</span><span id="chapter">Der Anfang</span><button id="print-recipe" class="print-button" aria-label="Geöffnetes Rezept drucken">Drucken</button></div>
-    <article class="book" id="book" aria-label="Aufgeschlagenes Kochbuch">
+    <div class="book-heading"><span>DIE PERSÖNLICHE REZEPTSAMMLUNG</span><span id="chapter">Inhaltsverzeichnis</span><a id="back-to-index" class="back-to-index" href="#inhaltsverzeichnis" hidden>Inhalt</a><button id="print-recipe" class="print-button" aria-label="Geöffnetes Rezept drucken">Drucken</button></div>
+    <article class="book toc-book" id="toc-book" aria-labelledby="toc-title">
+      <section class="page page-left">
+        <div class="eyebrow">UNSER KOCHBUCH · DAS REGISTER</div>
+        <h1 id="toc-title" tabindex="-1">Inhaltsverzeichnis</h1>
+        <p class="intro">Alle Lieblingsrezepte, Kapitel für Kapitel. Such dir etwas Schönes aus und schlage direkt die passende Seite auf.</p>
+        <img class="toc-image" src="assets/kitchen.svg" alt="Illustration eines Tellers mit Olivenzweig" width="800" height="420">
+        <p id="toc-summary" class="toc-summary"></p>
+        <nav id="chapter-list" class="chapter-list" aria-label="Buchkapitel"></nav>
+        <footer class="page-footer"><span>MIT LIEBE GESAMMELT</span><span>01</span></footer>
+      </section>
+      <section class="page page-right" aria-label="Rezepte nach Kapiteln">
+        <div class="eyebrow">AUFSCHLAGEN & LOSKOCHEN</div>
+        <div id="toc-chapters"></div>
+        <p id="toc-empty" class="small-note" hidden>Noch keine Rezepte. Hier wächst unsere Sammlung.</p>
+        <footer class="page-footer"><span>UNSER KOCHBUCH</span><span>02</span></footer>
+      </section>
+    </article>
+    <article class="book" id="book" hidden aria-label="Aufgeschlagenes Kochbuch">
         <button id="bookmark" class="ribbon" aria-label="Lesezeichen setzen" aria-pressed="false" title="Lesezeichen setzen"><svg viewBox="0 0 24 28" width="21" height="25" aria-hidden="true"><path d="M5 3h14v22l-7-5-7 5z"/></svg></button>
       <section class="page page-left" aria-labelledby="recipe-title">
         <div class="eyebrow" id="recipe-category"></div>
@@ -57,6 +74,7 @@
   <dialog id="index-dialog" aria-labelledby="index-title">
     <div class="dialog-heading"><div><span class="eyebrow">INHALTSVERZEICHNIS</span><h2 id="index-title">Was kochen wir heute?</h2></div><button id="close-index" class="close-button" aria-label="Inhaltsverzeichnis schließen">×</button></div>
     <label class="search-label" for="search">Rezepte durchsuchen</label><input id="search" type="search" placeholder="Titel, Zutat oder Kategorie …" autocomplete="off">
+    <label class="search-label" for="chapter-filter">Kapitel</label><select id="chapter-filter"><option value="">Alle Kapitel</option></select>
     <div class="filter-row"><button id="all-filter" aria-pressed="true">Alle Rezepte</button><button id="saved-filter" aria-pressed="false">Nur Lesezeichen</button></div>
     <p id="search-summary" class="small-note" role="status"></p><ul id="results" class="results"></ul>
     <p class="storage-note">Lesezeichen bleiben in diesem Browser auf diesem Gerät gespeichert.</p>
