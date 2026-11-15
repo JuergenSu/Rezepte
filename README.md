@@ -155,3 +155,7 @@ Nur die fünf ausdrücklich ausgewählten Rezepte sind übernommen: Cake Pops (P
 - Apfelpfannkuchen: 2 Portionen, ca. 15 Minuten Arbeitszeit und alle Mengen aus dem sichtbaren Rezeptbild übernommen.
 
 Jeder Eintrag trägt PDF-Dateiname und Seitennummer als Herkunft. Alle fünf SVG-Illustrationen sind selbst erstellt und keine kopierten Bilder aus der PDF.
+
+## Vögel · Süßspeisen
+
+Aus der vom Nutzer fotografierten handschriftlichen Rezeptseite übertragen. Sicher lesbar sind 1 kg Mehl, 1 Packung Hefe, 2 Eier sowie „100 Zucker“ ohne Einheit. Weitere Zutaten sind Salz, Vanillinzucker, etwas zerlassene Rama und etwas lauwarme Milch. Das Wort nach den Eiern wurde als „Arrak“ gelesen und als unsicher markiert. Der Klammerzusatz bei Zucker zum Wenden ist nicht eindeutig; keine Zuckersorte festgelegt. Die Vorlage beschreibt Verdoppeln des Teigvolumens, goldbraunes Ausbacken in heißem Fett wie Küchle und heißes Wenden in Zucker. Hefeart, fehlende Mengen, Formgebung, Zeit und Temperatur wurden nicht erfunden. Das Rezept ist als unvollständige Familiennotiz gekennzeichnet. Die eigene Illustration ist schematisch und behauptet keine überlieferte Gebäckform.

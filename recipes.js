@@ -1879,5 +1879,101 @@ window.RECIPES = [
       "label": "filofex rezepte.pdf · Seite 8",
       "note": "Vom Nutzer bereitgestellte Sammlung. Nur das ausgewählte Rezept übernommen; Verfasser nicht genannt."
     }
+  },
+  {
+    "id": "voegel-hefegebaeck",
+    "title": "Vögel",
+    "chapter": "suessspeisen",
+    "category": "Süßspeisen",
+    "description": "Hefeteiggebäck, in heißem Fett goldbraun ausgebacken und noch heiß in Zucker gewendet. Nach deiner handschriftlichen Vorlage.",
+    "image": "assets/voegel-hefegebaeck.svg",
+    "imageAlt": "Eigene schematische Illustration von goldbraunem, mit Zucker bestreutem Hefeteiggebäck",
+    "imageCaption": "Eigene Illustration · die genaue Gebäckform ist nicht überliefert",
+    "servings": "1 Rezeptmenge",
+    "ingredientsNote": "Unvollständige Mengenangaben: Bei „100 Zucker“ fehlt die Einheit. Die Hefeart, mehrere weitere Mengen und die Ausbacktemperatur sind nicht angegeben.",
+    "ingredients": [
+      {
+        "group": "Hefeteig",
+        "amount": "1 kg",
+        "name": "Mehl"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "1 Packung",
+        "name": "Hefe (Art und Packungsgröße nicht genannt)"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "Menge nicht angegeben",
+        "name": "Salz"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "100 (Einheit fehlt)",
+        "name": "Zucker"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "2",
+        "name": "Eier"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "Menge nicht angegeben",
+        "name": "Arrak (Lesart des Wortes unsicher)"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "Menge nicht angegeben",
+        "name": "Vanillinzucker"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "Etwas",
+        "name": "Rama, zerlassen"
+      },
+      {
+        "group": "Hefeteig",
+        "amount": "Etwas",
+        "name": "Lauwarme Milch"
+      },
+      {
+        "group": "Zum Ausbacken & Wenden",
+        "amount": "Nach Bedarf",
+        "name": "Fett zum Ausbacken"
+      },
+      {
+        "group": "Zum Ausbacken & Wenden",
+        "amount": "Zum Wenden",
+        "name": "Zucker (genaue Sorte nicht sicher lesbar)"
+      }
+    ],
+    "meta": [
+      "Gehen lassen bis zum doppelten Volumen",
+      "In heißem Fett goldbraun ausbacken"
+    ],
+    "steps": [
+      {
+        "title": "Hefeteig herstellen",
+        "text": "Aus den genannten Teigzutaten einen Hefeteig herstellen. Die Vorlage beschreibt keine genaue Rührfolge und nennt mehrere Mengen nicht. Vor der Zubereitung insbesondere die fehlende Einheit bei „100 Zucker“ und die Hefeart klären."
+      },
+      {
+        "title": "Aufgehen lassen",
+        "text": "Den Hefeteig gehen lassen, bis er etwa das doppelte Volumen erreicht hat. Eine feste Gehzeit wird nicht genannt."
+      },
+      {
+        "title": "Goldbraun ausbacken",
+        "text": "Den Teig in heißem Fett wie Küchle goldbraun ausbacken. Wie die „Vögel“ geformt oder portioniert werden sowie Temperatur und Garzeit nennt die Vorlage nicht."
+      },
+      {
+        "title": "In Zucker wenden",
+        "text": "Das Gebäck noch heiß in Zucker wenden. Der Klammerzusatz hinter „Zucker“ ist auf dem Foto nicht eindeutig lesbar; eine besondere Zuckersorte wurde nicht festgelegt."
+      }
+    ],
+    "tip": "Die Zutat nach den Eiern wurde als „Arrak“ gelesen, ist aber nicht eindeutig. Fehlende Mengen und Zeiten wurden nicht geschätzt.",
+    "source": {
+      "label": "Handschriftliche Rezeptseite · Vögel",
+      "note": "Vom Nutzer bereitgestelltes Foto. Ohne genannten Verfasser oder externen Link; unsichere Lesarten sind im Rezept gekennzeichnet."
+    }
   }
 ];
